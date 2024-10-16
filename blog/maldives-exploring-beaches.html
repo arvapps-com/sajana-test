@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FlyOver Holidays - Travel Agency HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+
+
+<!-- Navbar & Hero Start -->
+<div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+            <div class="logo-container">
+                <img id="logo" src="../img/logo with text for black bg.jpg" data-white-bg-src="../img/logo with text for white bg.jpg" 
+                data-black-bg-src="../img/logo with text for black bg.jpg" alt="Company Logo" class="logo">
+                
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link montserrat-uniquifier-light">Home</a>
+                <a href="about.html" class="nav-item nav-link montserrat-uniquifier-light">About Us</a>
+                <a href="service.html" class="nav-item nav-link montserrat-uniquifier-light">Services</a>
+                
+                <a href="destination.html" class="nav-item nav-link montserrat-uniquifier-light">Destinations</a>
+                <a href="package.html" class="nav-item nav-link montserrat-uniquifier-light">Packages</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link montserrat-uniquifier-light dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="blog.html" class="dropdown-item montserrat-uniquifier-light">Blog</a>
+                        <a href="testimonial.html" class="dropdown-item montserrat-uniquifier-light">Testimonial</a>
+                        <a href="terms-and-conditions.html" class="dropdown-item montserrat-uniquifier-light">Terms&Conditions</a>
+                        <a href="privacy-policy.html" class="dropdown-item montserrat-uniquifier-light">Privacy Policy</a>
+                        <a href="FAQs.html" class="dropdown-item montserrat-uniquifier-light">Frequently Asked Questions</a>
+                        <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link montserrat-uniquifier-light">Contact</a>
+            </div>
+                
+            <a href="" class="btn btn rounded-pill py-2 px-4 montserrat-uniquifier-light">Register</a>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-color py-0 mb-0">
+        <!-- <div class="container py-5"> -->
+            <div class="row justify-content-center">
+                <!-- <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center"> -->
+                    <!-- <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy Your Vacation With Us</h1>
+                    <p class="fs-4 text-white mb-4 animated slideInDown">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
+                    <div class="position-relative w-75 mx-auto animated slideInDown">
+                        <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand">
+                        <button type="button" class="btn btn rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        <!-- </div> -->
+    </div>
+</div>
+<!-- Navbar & Hero End -->
+
+
+
+<!-- ENQUIRY FORM -->
+
+
+<!-- <div id="enquiry-form" class="enquiry-form-popup">
+<div class=" enquiry-form-content montserrat-uniquifier-light"> 
+    <span class="close-btn" id="close-btn">&times;</span> -->
+        <!-- <div style="text-align:center">
+        <h2 class="enquire-heading gradient-text montserrat-uniquifier-bold ">Contact Us</h2>
+        </div>
+    <div class="row">
+      
+      <div class="enquiry-form-container control">
+        <form id="submit-form"  action="">
+          
+        <label for="name">Name</label>
+          <input type="text" id="name" name="name" required="" placeholder="Enter your name">
+          
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" required="" placeholder="Enter your email id">
+
+          <label for="phone">Mobile Number</label>
+          <input type="text" id="phone" name="phone" required="" maxlength="10" placeholder="Enter your mobile number">
+
+          
+            
+          
+          <label for="State">State</label>
+          <select id="State" name="State">
+            <option value="" disabled selected>Select your option</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Others">Others</option>
+          </select>
+         
+          <label for="city">City of Residence</label>
+          <input type="text" id="city" name="city" required="" placeholder="Enter your city of residence">
+          
+          
+          <input type="submit" value="Submit">
+        </form>
+     </div>
+     
+    </div>
+  </div>
+</div> -->
+
+<!-- ENQUIRY FORM END -->
+
+<!-- Header -->
+<!-- <header class="bg-light py-3">
+    <div class="container">
+        <h1 class="text-center">Travel Blog</h1>
+    </div>
+</header> -->
+
+<!-- Blog Post Content -->
+<main class="container my-5 justify-text">
+    <div class="row">
+        <!-- Blog Post Content -->
+        <div class="col-md-8">
+            <article>
+                <h1 class="montserrat-uniquifier-bold">Exploring the Enchanting Beaches of the Maldives</h1>
+                <p class="montserrat-uniquifier-light">The Maldives is a paradise known for its stunning beaches and crystal-clear waters. Each beach has its unique charm and attractions. Here’s an in-depth look at some of the most beautiful and distinct beaches in the Maldives.</p>
+    
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">1. Cocoa Island</h2>
+                    <img src="../img/gallery/maldives/cocoa-island.jpg" alt="Cocoa Island" class="responsive-image">
+                    <p class="montserrat-uniquifier-light">Nestled in the South Male Atoll, Cocoa Island is renowned for its serene beauty and luxurious ambiance. This beach is part of a private island resort that offers an exclusive escape from the hustle and bustle of daily life. The beach is characterized by its soft, white sand and calm, turquoise waters, making it ideal for relaxation and intimate beach walks. The surrounding coral reefs are teeming with colorful marine life, offering spectacular snorkeling and diving opportunities.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Coral Reefs: Vibrant marine life and excellent snorkeling opportunities.</li>
+                            <li>Scuba Diving: Explore the diverse underwater ecosystem with organized trips.</li>
+                            <li>Water Sports: Enjoy windsurfing and other exciting water activities.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> June to July</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">2. Hulhumale Beach</h2>
+                    <img src="../img/gallery/maldives/hulhumalebeach.jpg" alt="Hulhumale Beach" class="responsive-image">
+                    <p class="montserrat-uniquifier-light">Located in the North Male Atoll, Hulhumale Beach is a man-made island designed to offer a blend of natural beauty and urban convenience. The beach features pristine white sands and clear, shallow waters, perfect for leisurely swims and sunbathing. It is also surrounded by lush green parks and has excellent infrastructure, including cafes and local markets. The beach provides a picturesque setting for sunset views and is easily accessible from the main island of Male.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Beach Parks: Visit Hulhumale Central Park for a relaxing stroll.</li>
+                            <li>Local Attractions: Explore nearby landmarks like the Eastern Beach and Hulhule Island.</li>
+                            <li>Water Activities: Ideal for swimming and enjoying the scenic beauty.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> December to April</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">3. Mudhdhoo Beach</h2>
+                    <img src="../img/gallery/maldives/mudhoo island.jpg" alt="Mudhdhoo Beach" class="responsive-image">
+                    <p class="montserrat-uniquifier-light">Situated on Vadhoo Island, Mudhdhoo Beach is famed for its bioluminescent waters, creating a magical effect at night when the sea glows with a soft blue light. This phenomenon is caused by bioluminescent plankton and is best viewed on clear, moonless nights. During the day, the beach offers a tranquil escape with its soft sand and calm waters, perfect for swimming and relaxation. The surrounding environment is lush and relatively untouched, enhancing the overall serenity of the location.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Bioluminescence: Witness the glowing water created by tiny microorganisms.</li>
+                            <li>Marine Life: Discover diverse marine species in the clear waters.</li>
+                            <li>Cultural Sites: Visit nearby attractions like the Dharavandhoo Mosque.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> June to October</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">4. Bikini Beach</h2>
+                    <img src="img/gallery/maldives/bikini-beach.jpg" alt="Bikini Beach">
+                    <p class="montserrat-uniquifier-light">Located on Maafushi Island, Bikini Beach offers a vibrant and lively atmosphere, well-suited for those looking to enjoy both relaxation and fun. The beach is known for its spacious sandy area and is one of the few public beaches in the Maldives where tourists are allowed to wear bikinis. The area is bustling with local shops, eateries, and various activities. The beach also has excellent facilities, including sunbeds and umbrellas, making it a popular spot for day trips and beach outings.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Relaxation: Soak up the sun on the expansive sandy beach.</li>
+                            <li>Local Attractions: Explore nearby sights such as Sultan Park and Gunbaru Beach.</li>
+                            <li>Adventure: Engage in speed boat rides and other exciting activities.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> September to February</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">5. Fulhadhoo Beach</h2>
+                    <img src="img/gallery/maldives/fulhadhoo-beach.jpg" alt="Fulhadhoo Beach">
+                    <p class="montserrat-uniquifier-light">Fulhadhoo Beach, located in Baa Atoll, is a hidden gem offering a serene and unspoiled beach experience. The beach is renowned for its clear, turquoise waters and soft, white sand. It’s less crowded compared to other popular beaches, making it an ideal spot for those seeking solitude and tranquility. The surrounding waters are perfect for snorkeling, with vibrant coral reefs and diverse marine life. Fulhadhoo is also a great place to enjoy stunning sunsets and peaceful beach walks.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Serene Environment: Enjoy a peaceful and less crowded beach experience.</li>
+                            <li>Snorkeling: Discover colorful marine life and coral reefs.</li>
+                            <li>Sunset Views: Marvel at the stunning sunsets over the horizon.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> July to September</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">6. Anantara Veli Beach</h2>
+                    <img src="img/gallery/maldives/anantara-veli-beach.jpg" alt="Anantara Veli Beach">
+                    <p class="montserrat-uniquifier-light">Anantara Veli Beach, part of the Anantara Resort, offers an upscale beach experience with its luxurious facilities and beautiful surroundings. The beach is known for its powdery white sand and clear, shallow waters. The resort provides exclusive amenities such as private overwater bungalows and gourmet dining options. The tranquil setting is perfect for unwinding and indulging in high-end spa treatments. The nearby waters are ideal for snorkeling and enjoying a variety of water sports.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Exclusive Resorts: Stay in luxurious overwater bungalows.</li>
+                            <li>Wellness: Enjoy premium spa services and wellness programs.</li>
+                            <li>Water Sports: Participate in a range of activities including snorkeling and diving.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> August to November</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">7. Amilla Fushi Beach</h2>
+                    <img src="img/gallery/maldives/amilla-fushi-beach.jpg" alt="Amilla Fushi Beach">
+                    <p class="montserrat-uniquifier-light">Amilla Fushi Beach is known for its luxurious and exclusive atmosphere, offering a high-end beach experience in Baa Atoll. The beach is part of a luxury resort that features spacious villas and world-class services. The pristine white sands and crystal-clear waters provide an idyllic setting for relaxation and various water activities. The resort offers unique experiences, such as underwater dining and personalized wellness programs, making it a top choice for upscale travelers.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Exclusive Resorts: Stay in high-end villas with premium services.</li>
+                            <li>Unique Experiences: Enjoy underwater dining and personalized wellness programs.</li>
+                            <li>Diverse Activities: Engage in a range of activities including diving and water sports.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> Early August</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">8. Lily Beach</h2>
+                    <img src="img/gallery/maldives/lily-beach.jpg" alt="Lily Beach">
+                    <p class="montserrat-uniquifier-light">Lily Beach is renowned for its vibrant and lively atmosphere, with its stunning natural setting and upscale amenities. The beach features clear waters and fine white sand, providing a perfect backdrop for relaxation and water activities. The resort offers a range of facilities, including beach swings and luxury dining options, making it a popular choice for both relaxation and adventure. The surrounding area is known for its rich marine life and excellent diving spots.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Beach Swings: Enjoy relaxing swings set against the beautiful backdrop.</li>
+                            <li>Diving Sites: Access to nearby famous diving spots.</li>
+                            <li>Coral Reefs: Explore the rich marine biodiversity.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> October to March</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">9. Fihalhohi Island Beach</h2>
+                    <img src="img/gallery/maldives/fihalhohi-island-beach.jpg" alt="Fihalhohi Island Beach">
+                    <p class="montserrat-uniquifier-light">Fihalhohi Island Beach is renowned for its pristine environment and excellent snorkeling opportunities. Located in the South Male Atoll, the beach features soft, white sand and crystal-clear waters. It’s an ideal destination for both relaxation and adventure, offering various water sports and activities. The surrounding area is also rich in marine life, making it a popular spot for snorkeling and diving enthusiasts. The island’s natural beauty and tranquil atmosphere make it a perfect escape from city life.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Water Sports: Engage in a range of activities including scuba diving and snorkeling.</li>
+                            <li>Luxurious Stays: Enjoy deluxe resorts and world-class services.</li>
+                            <li>Maldivian Spa: Pamper yourself at the resort’s spa facilities.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> Mid-November to early April</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">10. Veligandu Island Beach</h2>
+                    <img src="img/gallery/maldives/veligandu-island-beach.jpg" alt="Veligandu Island Beach">
+                    <p class="montserrat-uniquifier-light">Veligandu Island Beach, located in North Ari Atoll, is celebrated for its stunning scenery and clear, azure waters. The beach offers a blend of relaxation and adventure, with a range of activities such as jet skiing and parasailing. The soft, white sand and picturesque views make it an ideal spot for both relaxation and exploration. The surrounding waters are perfect for snorkeling and diving, providing ample opportunities to explore the vibrant marine life.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Water Sports: Enjoy activities like jet skiing and parasailing.</li>
+                            <li>Scenic Beauty: Marvel at the picturesque beaches and crystal-clear waters.</li>
+                            <li>Relaxation: Ideal for unwinding in a serene environment.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> July to October</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">11. Baros Island</h2>
+                    <img src="img/gallery/maldives/baros-island.jpg" alt="Baros Island">
+                    <p class="montserrat-uniquifier-light">Baros Island is known for its exceptional natural beauty and luxury accommodations. Located in the North Male Atoll, the island offers pristine beaches with soft, white sand and crystal-clear waters. The beach is ideal for romantic getaways and private relaxation, with exclusive resorts and top-notch service. The island also provides excellent opportunities for diving and snorkeling, with vibrant coral reefs and diverse marine life.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Private Moments: Ideal for romantic getaways and private relaxation.</li>
+                            <li>Luxury Spa: Experience premium spa treatments.</li>
+                            <li>Diving: Explore nearby diving spots like Manta Point.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> December to February</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="montserrat-uniquifier-bold">12. Bandos Island</h2>
+                    <img src="img/gallery/maldives/bandos-island.jpg" alt="Bandos Island">
+                    <p class="montserrat-uniquifier-light">Bandos Island offers a delightful tropical beach experience with its accessible location and beautiful surroundings. Situated near Male, the beach features soft, white sands and clear waters perfect for swimming and sunbathing. The island is well-equipped with various facilities and activities, including snorkeling, diving, and local excursions. Its proximity to the capital makes it an excellent choice for both short getaways and longer stays.</p>
+                    <div class="highlights">
+                        <h3 class="montserrat-uniquifier-light">Highlights:</h3>
+                        <ul class="montserrat-uniquifier-light">
+                            <li>Marine Life: Discover diverse marine species in the surrounding waters.</li>
+                            <li>Activities: Engage in snorkeling and local excursions.</li>
+                            <li>Convenient Location: Easy access from Male for a quick getaway.</li>
+                        </ul>
+                        <p class="montserrat-uniquifier-light"><strong>Best Time to Visit:</strong> January to March</p>
+                    </div>
+                </section>
+            </article>
+        </div>
+
+        <!-- FAQ Section -->
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2 class="montserrat-uniquifier-bold">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">What is the best time to visit the Maldives?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>The best time to visit the Maldives is from November to April when the weather is pleasant and dry. This period is ideal for beach activities and water sports.</p>
+                </div>
+            </div>
+            <!-- <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">Are there any restrictions on beachwear?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>In most tourist areas, there are no restrictions on beachwear. However, it’s important to dress modestly when visiting local islands and cultural sites.</p>
+                </div>
+            </div> -->
+            <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">What activities can I do at the beaches?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>Beaches in the Maldives offer a range of activities including snorkeling, diving, kayaking, paddleboarding, and beach volleyball. Many resorts also provide organized excursions and water sports.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">Can I find budget accommodation in the Maldives?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>Yes, there are budget accommodation options available in the Maldives, particularly on local islands. These options offer a more affordable way to experience the beauty of the Maldives without the high costs of luxury resorts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Enquiry Form -->
+     <aside id="fixed-form" class="fixed-enquiry-form">
+        <!-- <div class="container bg-light p-4 rounded"> -->
+            <h3 class="montserrat-uniquifier-bold">Enquire Now</h3>
+            <form >
+                <div class="form-group control">
+                    <label for="fixed-name" class="fixed-label">Name</label>
+                    <input type="text" id="fixed-name" name="name" required="" placeholder="Enter your name">
+                </div>
+                <div class="form-group control">
+                    <label for="fixed-email" class="fixed-label">Email</label>
+                    <input type="text" id="fixed-email" name="email" required="" placeholder="Enter your email id">
+                </div>
+                <div class="form-group control">
+                    <label for="fixed-phone" class="fixed-label">Phone</label>
+                    <input type="tel" id="fixed-phone" name="phone" required="" maxlength="10" placeholder="Enter your mobile number"> 
+                </div>
+
+                <!-- <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div> -->
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+                
+            </form>
+        <!-- </div> -->
+    </aside>
+
+    </div>
+</main>
+<!-- WhatsApp Floating Icon NEW -->
+<a href="https://wa.me/918921664272?text=Hello%2C%20I%27d%20like%20more%20info%20about%20your%20travel%20packages."
+   class="whatsapp-float" 
+   target="_blank">
+    <div class="whatsapp-tooltip">Chat with us on WhatsApp</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon">
+</a>
+<!-- Whatsapp End -->
+
+ <!-- Footer Start -->
+ <div class="container-fluid background-color-nav text-light footer pt-10 mt-4 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Company</h4>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="" >About Us</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Contact Us</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Privacy Policy</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Terms & Conditions</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">FAQs & Help</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Careers</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Blog</a>
+            </div>
+           
+            <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6"> -->
+                    <!-- <h4 class="gradient-text font-face">Follow Us</h4> -->
+                
+                    <h4 class=" gradient-text montserrat-uniquifier-light">Quick Links</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Bali Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Dubai Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Kerala Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Malidives Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Thailand Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Armenia Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Turkey Tour Packages</a>
+                <!-- </div> -->
+                
+               
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Get in Touch</h4>
+                <p class="mb-2 montserrat-uniquifier-light">
+                    <i class="fa fa-phone-alt custom-phone-icon me-3" style="color: white;"></i>
+                    <a href="tel:+918075512516">+91 80755 12516</a> 
+                
+                </p>
+                <p class="mb-2 montserrat-uniquifier-light"><i class="fa fa-envelope custom-phone-icon me-3" style="color: white;"></i><a href="mailto:info@flyoverholidays.com">info@flyoverholidays.com</a>
+                <p class="mb-2 montserrat-uniquifier-light"><i class="fa fa-home custom-phone-icon me-3" style="color: white;"></i>Flyover Holidays,
+                    2nd Floor, Naureen Tower,
+                    Kaloor, Kochi,
+                    Kerala</p>
+                </p>
+                <div class="d-flex pt-2 ps-4">
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://x.com/FlyoverHolidays"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://www.facebook.com/flyoverholidays"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://youtube.com/@flyoverholidays7724"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>   
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Gallery</h4>
+                <a href="gallery.html">
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                    </div>
+
+                    <!-- <div class="col-4">
+                        <a href="gallery-maldives.html"><img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="Gallery-Maldives"></a>
+                    </div> -->
+
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text font-face mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">FlyOver Holidays</a>, All Right Reserved.
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <!-- <a href="">Cookies</a> -->
+                        <a href="">Help</a>
+                        <a href="">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/script.js"></script>
+    <!-- Ensure this script is included before the closing body tag -->
+
+
+</body>
+
+</html>

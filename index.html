@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FlyOver Holidays</title>
+    <link rel="icon" href="/flyover-holidays/img/logo_icon.png" type="image/icon type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon test -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/enquiry.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-color" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York,
+                        USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://x.com/FlyoverHolidays"><i
+                            class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/flyoverholidays"><i
+                            class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i
+                            class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/flyover_holidays"><i
+                            class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://youtube.com/@flyoverholidays7724"><i
+                            class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <div class="logo-container ">
+                    <img id="logo-home" src="img/logo with text for black bg-Photoroom.png" alt="Company Logo"
+                        class="logo" style="max-height: 550px; width: auto;">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 ">
+                <a href="/flyover-holidays/index.html" class=" nav-item nav-link active">HOME</a>
+                <a href="/flyover-holidays/about-us.html" class="nav-item nav-link">ABOUT US</a>
+                <a href="/flyover-holidays/service.html" class="nav-item nav-link">SERVICES</a>
+                <a href="/flyover-holidays/destinations.html" class="nav-item nav-link">DESTINATIONS</a>
+                <a href="/flyover-holidays/packages.html" class="nav-item nav-link">PACKAGES</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/flyover-holidays/blog.html" class="dropdown-item">BLOG</a>
+                        <a href="/flyover-holidays/testimonial.html" class="dropdown-item">TESTIMONIAL</a>
+                        <a href="/flyover-holidays/terms-and-conditions.html" class="dropdown-item">TERMS&CONDITIONS</a>
+                        <a href="/flyover-holidays/privacy-policy.html" class="dropdown-item">PRIVACY POLICY</a>
+                        <a href="/flyover-holidays/FAQs.html" class="dropdown-item">FREQUENTLY ASKED QUESTIONS</a>
+                        <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                    </div>
+                </div>
+                <a href="/flyover-holidays/contact.html" class="nav-item nav-link">CONTACT</a>
+                <a href="/flyover-holidays/our-resorts.html" class="nav-item nav-link">OUR RESORTS</a>
+            </div>
+                <!-- <a href="" class="btn btn rounded-pill py-2 px-4">REGISTER</a> -->
+            </div>
+        </nav>
+        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5 ">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center body-text">
+                        <h1 class="display-3 text-white mb-3 animated slideInDown jost-header-bold">Enjoy Your Vacation
+                            With Us</h1>
+                        <p class="fs-4 text-white mb-4 animated slideInDown">Discover Your Next Adventure – Find Your
+                            Perfect Destination!</p>
+                        <!-- <div class="position-relative w-75 mx-auto animated slideInDown">
+                            <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand ">
+                            <a href="destinations.html">
+                            <button type="button" class="btn btn rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- About Start -->
+
+    <!-- About End -->
+
+    <!-- <section id="welcome" class="welcome-section">
+        <div class="container">
+            <h1 class="welcome-title">Welcome to FLYOVER HOLIDAYS</h1>
+            <p class="welcome-description">
+                Discover seamless travel planning with our all-in-one platform, offering flights, hotels, and personalized holiday packages tailored to your preferences. Whether you're planning a quick getaway or a dream vacation, our innovative service makes it easy to explore destinations, compare options, and book everything in one place. Start your adventure today with our expert guidance and enjoy a hassle-free travel experience from start to finish.
+            </p>
+    
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>First Class Flights</h3>
+                </div>
+                <div class="feature-item">
+                    <h3>Handpicked Hotels</h3>
+                </div>
+                <div class="feature-item">
+                    <h3>5 Star Accommodations</h3>
+                </div>
+                <div class="feature-item">
+                    <h3>Latest Model Vehicles</h3>
+                </div>
+                <div class="feature-item">
+                    <h3>150 Premium City Tours</h3>
+                </div>
+                <div class="feature-item">
+                    <h3>24/7 Service</h3>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="welcome" class="welcome-section">
+        <div class="container">
+            <div class="welcome-header">
+                <h1 class="welcome-title">Welcome to <span>Flyover Holidays</span></h1>
+                <p class="welcome-subtitle">
+                    Discover your next unforgettable adventure with Flyover Holidays. Seamless travel experiences
+                    tailored to your needs, wherever you want to go.
+                </p>
+            </div>
+
+
+
+
+            <div class="welcome-features">
+                <div class="feature">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-plane"></i>
+                    </div>
+                    <h3 class="feature-title">Luxury Flights</h3>
+                    <p class="feature-description">Fly in comfort with our top-notch airline partners offering
+                        first-class services.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-hotel"></i>
+                    </div>
+                    <h3 class="feature-title">Handpicked Hotels</h3>
+                    <p class="feature-description">Stay at the most luxurious and highly rated hotels across the globe.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <h3 class="feature-title">Modern Transport</h3>
+                    <p class="feature-description">Travel comfortably in premium vehicles for your tours and transfers.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <h3 class="feature-title">Exclusive City Tours</h3>
+                    <p class="feature-description">Explore over 150 cities with our expert-guided premium tours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="about-values-section">
+        <h3 class="about-values-title">Our Core Values</h3>
+        <div class="about-values-container">
+            <div class="about-value-box">
+                <img src="img/star.png" alt="Excellence Icon" class="about-value-icon">
+                <h4 class="about-value-title">Excellence</h4>
+                <p class="about-value-description">Delivering top-quality service in everything we do.</p>
+            </div>
+            <div class="about-value-box">
+                <img src="img/trust.png" alt="Integrity Icon" class="about-value-icon">
+                <h4 class="about-value-title">Integrity</h4>
+                <p class="about-value-description">Acting with transparency and accountability in all our services.</p>
+            </div>
+            <div class="about-value-box">
+                <img src="img/24-hours.png" alt="Customer Focus Icon" class="about-value-icon">
+                <h4 class="about-value-title">Customer Focus</h4>
+                <p class="about-value-description">Placing the needs of our customers at the heart of everything we do.
+                </p>
+            </div>
+            <div class="about-value-box">
+                <img src="img/idea.png" alt="Innovation Icon" class="about-value-icon">
+                <h4 class="about-value-title">Innovation</h4>
+                <p class="about-value-description">Continuously evolving to offer the best travel solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENQUIRY FORM -->
+
+    <!-- Button to open the enquiry form -->
+    <div id="enquiry-button">
+        <button id="open-enquiry-form">Enquire Now</button>
+    </div>
+
+
+    <!-- <div class="container-f"> -->
+    <div id="enquiry-form" class="enquiry-form-popup"  style="display: none;">
+        <button id="close-btn" class="close-btn">x</button>
+
+        <div class="contact-container">
+
+            <div class="left-col">
+                <img class="form-logo" src="img/logo with text for black bg-Photoroom.png" />
+            </div>
+            <div class="right-col">
+                <!-- Close Button -->
+
+                <h1>Contact us</h1>
+                <form id="submit-form" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="Your City" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="State">State</label>
+                            <select id="State" name="State" class="custom-dropdown">
+                                <option value="" disabled selected>Select your option</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                                <option value="Others">Others</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit" name="submit">Send</button>
+
+
+                </form>
+
+                <div id="error"></div>
+                <div id="success-msg"></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Image credit: Oliver Sjöström https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/  -->
+
+
+    <!-- Destination End -->
+
+    <!-- Destination Start -->
+    <section id="destinations" class="destinations-section">
+        <div class="container">
+            <h2 class="section-title">Popular Destinations</h2>
+            <div class="container-xxl py-5 destination">
+                <div class="container">
+                    <div class="text-center">
+                        <!-- <h6 class="section-title bg-white text-center text-color px-3 jost-title-semibold">Destination</h6> -->
+                        <!-- <h1 class="mb-5">Popular Destinations</h1> -->
+                    </div>
+
+                    <div class="row g-3">
+
+                        <!-- First Row -->
+                        <div class="row g-3 mt-3">
+                            <div class="col-lg-3 col-md-4">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/russia.html">
+                                    <img class="img-fluid" src="img/gallery/russia/pexels-pixabay-236294.jpg"
+                                        alt="Russia">
+                                    <!-- <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">30% OFF</div> -->
+                                    <!-- <div class="bg-white text-color fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Maldives</div> -->
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Russia</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-4">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/greece.html">
+                                    <img class="img-fluid" src="img/gallery/greece/pexels-apasaric-1285625.jpg"
+                                        alt="Greece">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Greece</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/seychelles.html">
+                                    <img class="img-fluid" src="img/gallery/seychelles/pexels-hwmedia-5044865.jpg"
+                                        alt="Seychelles">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Seychelles</div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <!-- Second Row -->
+                        <div class="row g-3 mt-3">
+                            <div class="col-lg-6 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/maldives.html">
+                                    <img class="img-fluid" src="img/gallery/maldives/beach-666122 (1).jpg"
+                                        alt="Maldives">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Maldives</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/turkey.html">
+                                    <img class="img-fluid" src="img/gallery/turkey/cappadocia-765498_1920.jpg"
+                                        alt="Turkey">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Turkey</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Third Row -->
+                        <div class="row g-3 mt-3">
+                            <div class="col-lg-3 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/mauritius.html">
+                                    <img class="img-fluid"
+                                        src="img/gallery/mauritius/pexels-andrew-harvard-1340985-3485360.jpg"
+                                        alt="Mauritius">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Mauritius</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/europe.html">
+                                    <img class="img-fluid" src="img/gallery/europe/pexels-pixabay-326709.jpg"
+                                        alt="Europe">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Europe</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/finland.html">
+                                    <img class="img-fluid"
+                                        src="img/gallery/finland/trees-7847683_1920.jpg"
+                                        alt="Bali">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Finland</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/bora-bora.html">
+                                    <img class="img-fluid"
+                                        src="img/gallery/bora-bora/pexels-fabiola-ulate-3270304-14947533.jpg"
+                                        alt="Bora Bora">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Bora Bora</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Fourth Row -->
+                        <div class="row g-3 mt-3">
+                            <div class="col-lg-3 col-md-4">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/sri-lanka.html">
+                                    <img class="img-fluid"
+                                        src="img/gallery/srilanka/pexels-viraj-ranasingha-48517372-11442148.jpg"
+                                        alt="Sri Lanka">
+                                    <!-- <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">30% OFF</div> -->
+                                    <!-- <div class="bg-white text-color fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Maldives</div> -->
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Sri Lanka</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-4">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/singapore.html">
+                                    <img class="img-fluid" src="img/gallery/singapore/pexels-anytiffng-2434268.jpg"
+                                        alt="Singapore">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Singapore</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/vietnam.html">
+                                    <img class="img-fluid" src="img/gallery/vietnam/pexels-d-ng-nhan-324384-3155276.jpg"
+                                        alt="Vietnam">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">Vietnam</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Fifth Row -->
+                        <div class="row g-3 mt-3">
+                            <div class="col-lg-6 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/france.html">
+                                    <img class="img-fluid" src="img/gallery/france/pexels-chaitaastic-1796716.jpg"
+                                        alt="France">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">France</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <a class="position-relative d-block overflow-hidden box"
+                                    href="/flyover-holidays/destinations/new-zealand.html">
+                                    <img class="img-fluid" src="img/gallery/new-zealand/roys-peak-7008528_1280.jpg"
+                                        alt="Italy">
+                                    <div class="custom-overlay"></div>
+                                    <div class="custom-destination-name">New Zealand</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sixth Row -->
+                        <div class="row g-3 mt-3">
+                            <!-- <div class="col-lg-3 col-md-6">
+                            <a class="position-relative d-block overflow-hidden box" href="/flyover-holidays/destinations/australia.html">
+                                <img class="img-fluid" src="img/gallery/australia/pexels-pixelcop-1878293.jpg" alt="Australia">
+                                <div class="custom-overlay"></div>
+                                <div class="custom-destination-name">Australia</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <a class="position-relative d-block overflow-hidden box" href="/flyover-holidays/destinations/mexico.html">
+                                <img class="img-fluid" src="img/gallery/mexico/pexels-bhargava-marripati-674798-3591074.jpg" alt="Mexico">
+                                <div class="custom-overlay"></div>
+                                <div class="custom-destination-name">Mexico</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <a class="position-relative d-block overflow-hidden box" href="/flyover-holidays/destinations/switzerland.html">
+                                <img class="img-fluid" src="img/gallery/switzerland/pexels-tanathip-rattanatum-1050216-2026454.jpg" alt="Switzerland">
+                                <div class="custom-overlay"></div>
+                                <div class="custom-destination-name">Switzerland</div>
+                            </a>
+                        </div> -->
+                            <!-- <div class="col-lg-3 col-md-6">
+                            <a class="position-relative d-block overflow-hidden box" href="destinations.html"> -->
+                            <!-- <img class="img-fluid" src="img/gallery/nature-6662283_1280.jpg" alt="View More"> -->
+
+                            <!-- <div class="custom-overlay"></div> -->
+                            <!-- <a class="position-relative d-block overflow-hidden box" href="destinations.html"> -->
+                            <!-- <div class="custom-destination-name text-center">View More</div>
+                            </a>
+                        </div> -->
+                            <div class="view-more">
+                                <a href="/flyover-holidays/destinations.html" class="view-more-btn">View More</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- Destination End -->
+        </div>
+
+
+
+    </section>
+
+
+
+    <section id="featured-packages" class="package-slider-section">
+        <div class="slider-container">
+            <h2 class="section-title">Popular Packages</h2>
+            <div class="slider-wrapper">
+                <div class="slider-content">
+                    <div class="slider-item">
+                        <img src="/flyover-holidays/img/gallery/maldives/sunset-cruise-01_hd.webp"
+                            alt="Romantic Sunset Cruise">
+                        <div class="slider-info">
+                            <h3>Romantic Sunset Cruise</h3>
+                            <p>5 Days & 4 Nights</p>
+                            <p><strong>Starting from: INR 75,000</strong></p>
+                            <p>Locations: Hulhumalé, Sandbanks, Sunset Spots</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+
+                        </div>
+                    </div>
+
+
+                    <div class="slider-item">
+                        <img src="img/gallery/france/pexels-pixabay-532826.jpg" alt="Luxury Paris Getaway">
+                        <div class="slider-info">
+                            <h3>Luxury Paris Getaway</h3>
+                            <p>5 Nights | Flights & Hotel</p>
+                            <p><strong>Starting from: INR 50,000</strong></p>
+                            <p>Locations: Eiffel Tower, Louvre Museum, Montmartre</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="img/gallery/bali/bali-8838762_1280.jpg" alt="Tropical Bali Escape">
+                        <div class="slider-info">
+                            <h3>Tropical Bali Escape</h3>
+                            <p>7 Nights | All-Inclusive</p>
+                            <p><strong>Starting from: INR 60,000</strong></p>
+                            <p>Locations: Ubud, Seminyak, Nusa Penida</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="img/gallery/greece/santorini-1663658_1280.jpg" alt="Romantic Santorini">
+                        <div class="slider-info">
+                            <h3>Romantic Santorini</h3>
+                            <p>4 Nights | Flights & Hotel</p>
+                            <p><strong>Starting from: INR 40,000</strong></p>
+                            <p>Locations: Oia, Fira, Akrotiri</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="/flyover-holidays/img/gallery/seychelles/beach.jpeg" alt="Luxury Beach Retreat">
+                        <div class="slider-info">
+                            <h3>Luxury Beach Retreat</h3>
+                            <p>7 Days & 6 Nights</p>
+                            <p><strong>Starting from: INR 1,20,000</strong></p>
+                            <p>Locations: Anse Lazio, Vallée de Mai, Silhouette Island</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+
+                    <div class="slider-item">
+                        <img src="/flyover-holidays/img/gallery/netherlands/amsterdam-4693608_1280.jpg"
+                            alt="Netherlands Highlights Tour">
+                        <div class="slider-info">
+                            <h3>Netherlands Highlights Tour</h3>
+                            <p>6 Days & 5 Nights</p>
+                            <p><strong>Starting from: INR 70,000</strong></p>
+                            <p>Locations: Amsterdam, Rotterdam, The Hague</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+
+                    <div class="slider-item">
+                        <img src="/flyover-holidays/img/gallery/russia/moscow-3617070_1280.jpg" alt="Moscow">
+                        <div class="slider-info">
+                            <h3>Moscow</h3>
+                            <p>5 Days & 4 Nights</p>
+                            <p><strong>Starting from: INR 50,000</strong></p>
+                            <p>Locations: Moscow, Kremlin, Red Square</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="/flyover-holidays/img/gallery/paris/louvre-museum-2218336_1280.jpg"
+                            alt="Louvre Museum">
+                        <div class="slider-info">
+                            <h3>Louvre Museum & City Tour</h3>
+                            <p>4 Days & 3 Nights</p>
+                            <p><strong>Starting from: INR 40,000</strong></p>
+                            <p>Locations: Louvre Museum, Notre-Dame Cathedral</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="/flyover-holidays/img/gallery/turkey/istanbul.jpg" alt="Istanbul City Tour">
+                        <div class="slider-info">
+                            <h3>Istanbul City Tour</h3>
+                            <p>6 Days & 5 Nights</p>
+                            <p><strong>Starting from: INR 70,000</strong></p>
+                            <p>Locations: Hagia Sophia, Blue Mosque, Grand Bazaar</p>
+                            <!-- <a href="#" class="enquire-btn">Enquire Now</a> -->
+
+                            <a href="javascript:void(0);" id="enquire-button" class="enquire-btn">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Add more packages here -->
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn">‹</button>
+                <button class="next-btn">›</button>
+            </div>
+
+            <div class="view-more">
+                <a href="/flyover-holidays/packages.html" class="view-more-btn">View More</a>
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+
+
+    <!-- Process Start -->
+
+
+    <section id="process" class="process-section">
+        <div class="container">
+            <h2 class="section-title">3 Easy Steps</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <h3>Choose A Destination</h3>
+                    <p>Explore our curated selection of destinations tailored to your preferences, from serene beaches
+                        to bustling cityscapes.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fa fa-credit-card"></i>
+                    </div>
+                    <h3>Pay Online</h3>
+                    <p>Book your trip securely through our easy-to-use payment system. With just a few clicks, you'll
+                        have your vacation locked in and ready to go.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fa fa-plane"></i>
+                    </div>
+                    <h3>Fly Today</h3>
+                    <p>Pack your bags and get ready for an adventure of a lifetime. Your dream destination awaits—start
+                        your journey today with ease and excitement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonials-items-container"> <!-- New wrapper for the items -->
+                    
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"Honest people with the best offer. We researched every agency, and these people were the best. Jishnu made the process very seamless. Would definitely recommend. We stayed in Adaraan Prestige Vadoo Sunrise Water Villa."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 010040.png" alt="Client 14"> <!-- Use an appropriate image -->
+                            <h4>Nidhi Shetty</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"Thank you Flyover Holidays for making our trip to Maldives so memorable and special. Special thanks to Mr. Jishnu for making the whole arrangements, and the process was very smooth throughout; everything was taken care of."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 010231.png" alt="Client 15"> <!-- Use an appropriate image -->
+                            <h4>Vyshakh Sasi</h4>
+                        </div>
+                    </div>
+                    
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"A big thanks to Amy and flyover holidays for organizing our trip to Maldives. Amy prepared the itinerary very well as per our requirements. She was very approachable and patient, responded actively to all our queries. Highly recommended service."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 005832.png" alt="Client 2">
+                            <h4>Sreelakshmi S</h4>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"Thanks to Flyover Holidays for helping to choose our Maldives trip and thanks to Jishnu and Amy for guiding us about everything regarding the Maldives trip. Nice place to visit, Adaaran Select Hudhuranfushi Island."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 004916.png" alt="Client 10"> <!-- Use an appropriate image -->
+                            <h4>Mohammad Hafiz</h4>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"Flyover Holidays made our trip simple and hassle-free, and we had a great time. They handled everything expertly with appropriate follow-ups, discussions, and responses to our questions. We'll definitely reach out to them again for our next vacation."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 005423.png" alt="Client 11"> <!-- Use an appropriate image -->
+                            <h4>Naveen Pandyan</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"Ashish is the best person to coordinate with. He took care of our booking right from start to end. With a lesser budget, he gave us the best property in Maldives for vacation. Thank you, Flyover Holidays and Ashish, for this awesome experience 😊."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 005331.png" alt="Client 12"> <!-- Use an appropriate image -->
+                            <h4>Swapnil Sawant</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"We had a good experience and wonderful memories on our trip to Maldives, all thanks to Flyover Holidays. Jishnu did a great job in coordinating and planning with immediate response."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 005238.png" alt="Client 13"> <!-- Use an appropriate image -->
+                            <h4>Anjali E</h4>
+                        </div>
+                    </div>
+                    
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-text">
+                            <p>"I have booked a tour package to Dubai. Service was excellent, all timing as mentioned on the dot and all tour guides and drivers are very friendly and helpful. Safari was so much fun thanks to Kasim Bhai."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-14 005747.png" alt="Client 3">
+                            <h4>Radhakishan Kairamkonda</h4>
+                        </div>
+                    </div>
+                 
+                </div> <!-- End testimonials-items-container -->
+
+
+
+
+                <div class="slider-controls">
+                    <button class="testimonials-prev">‹</button>
+                    <button class="testimonials-next">›</button>
+                </div>
+            </div>
+
+            <!-- View More Button -->
+            <div class="view-more-container">
+                <a href="all-packages.html" class="view-more-btn">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial End -->
+
+    
+    
+
+    <!-- WhatsApp Floating Icon NEW -->
+    <a href="https://wa.me/918921664272?text=Hello%2C%20I%27d%20like%20more%20info%20about%20your%20travel%20packages."
+        class="whatsapp-float" target="_blank">
+        <div class="whatsapp-tooltip">Chat with us on WhatsApp</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon">
+    </a>
+    <!-- Whatsapp End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid background-color-nav text-light footer pt-10 mt-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Company</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/about-us.html">About Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/contact.html">Contact Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/privacy-policy.html">Privacy Policy</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/terms-and-conditions.html">Terms & Conditions</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/FAQs.html">FAQs & Help</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Careers</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Blog</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <!-- <div class="col-lg-3 col-md-6"> -->
+                    <!-- <h4 class="gradient-text font-face">Follow Us</h4> -->
+
+                    <h4 class=" gradient-text montserrat-uniquifier-light">Quick Links</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Bali Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Dubai Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Kerala Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Malidives Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Thailand Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Armenia Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Turkey Tour Packages</a>
+                    <!-- </div> -->
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Get in Touch</h4>
+                    <p class="mb-2 montserrat-uniquifier-light">
+                        <i class="fa-solid fa-phone" style="color: white;"></i>
+                        <a href="tel:+918075512516">+91 80755 12516</a>
+
+                    </p>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-envelope"
+                            style="color: white;"></i><a
+                            href="mailto:info@flyoverholidays.com">info@flyoverholidays.com</a>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-house"
+                            style="color: white;"></i>Flyover Holidays,
+                        2nd Floor, Naureen Tower,
+                        Kaloor, Kochi,
+                        Kerala</p>
+                    </p>
+                    <div class="d-flex pt-2 ps-4">
+                        <a class="btn-soc  btn-social " href="https://x.com/FlyoverHolidays"><i
+                                class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://www.facebook.com/flyoverholidays"><i
+                                class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://youtube.com/@flyoverholidays7724"><i
+                                class="fa-brands fa-youtube fa-lg"></i></a>
+                        <a class="btn-soc  btn-social "
+                            href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i
+                                class="fa-brands fa-linkedin fa-lg"></i></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Gallery</h4>
+                    <a href="gallery.html">
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                            </div>
+
+                            <!-- <div class="col-4">
+                        <a href="gallery-maldives.html"><img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="Gallery-Maldives"></a>
+                    </div> -->
+
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text font-face mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">FlyOver Holidays</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="/flyover-holidays/index.html">Home</a>
+                            <!-- <a href="">Cookies</a> -->
+                            <a href="/flyover-holidays/contact.html">Help</a>
+                            <a href="/flyover-holidays/FAQs.html">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+
+    <script>
+        const sliderContent = document.querySelector('.slider-content');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+
+        let scrollPosition = 0;
+        const sliderWidth = sliderContent.offsetWidth;
+        const packageWidth = document.querySelector('.slider-item').offsetWidth + 20; // Include margin
+
+        nextBtn.addEventListener('click', () => {
+            if (scrollPosition > -(sliderContent.scrollWidth - sliderWidth)) {
+                scrollPosition -= packageWidth;
+                sliderContent.style.transform = `translateX(${scrollPosition}px)`;
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (scrollPosition < 0) {
+                scrollPosition += packageWidth;
+                sliderContent.style.transform = `translateX(${scrollPosition}px)`;
+            }
+        });
+
+    </script>
+
+
+
+    <!-- ------------------------------------------------------------- -->
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var navbar = document.querySelector('.navbar');
+            var logo = document.getElementById('logo-home');
+
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+                logo.src = 'img/logo with text for white bg.jpg'; // Set the logo source for white background
+            } else {
+                navbar.classList.remove('scrolled');
+                logo.src = 'img/logo with text for black bg-Photoroom.png'; // Set the logo source for black background
+            }
+        });
+    </script>
+
+
+    <!-- ------------------------------------------------------------------------------------- -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = document.querySelector('.slider');
+            const prevButton = document.querySelector('.slider-btn.prev');
+            const nextButton = document.querySelector('.slider-btn.next');
+
+            const scrollAmount = slider.querySelector('.destination-box').offsetWidth + 15; // Add margin-right to the width
+
+            nextButton.addEventListener('click', function () {
+                slider.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+
+            prevButton.addEventListener('click', function () {
+                slider.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+    </script>
+
+
+    <script>
+
+
+        //         // Get all enquiry buttons
+        // const enquiryButtons = document.querySelectorAll('.enquire-btn');
+
+        // // Add click event listener to each button
+        // enquiryButtons.forEach(button => {
+        //     button.addEventListener('click', function() {
+        //         document.getElementById("enquiry-form").style.display = "flex"; // Show the enquiry form
+        //     });
+        // });
+
+        // // Close button functionality
+        // document.getElementById("close-btn").addEventListener("click", function() {
+        //     document.getElementById("enquiry-form").style.display = "none"; // Hide the enquiry form
+        // });
+
+
+        // Get all enquiry buttons
+        const enquiryButtons = document.querySelectorAll('.enquire-btn');
+
+        // Get the enquiry form and close button
+        const enquiryForm = document.getElementById("enquiry-form");
+        const closeBtn = document.getElementById("close-btn");
+
+        // Add click event listener to each enquiry button
+        enquiryButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                enquiryForm.style.display = "flex"; // Show the enquiry form
+            });
+        });
+
+        // Add click event listener to the close button
+        closeBtn.addEventListener('click', function () {
+            enquiryForm.style.display = "none"; // Hide the enquiry form
+        });
+
+        // Optional: Close the form when clicking outside of it
+        window.addEventListener('click', function (event) {
+            if (event.target == enquiryForm) {
+                enquiryForm.style.display = "none"; // Hide the enquiry form
+            }
+        });
+
+    </script>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const testimonialsItemsContainer = document.querySelector('.testimonials-items-container');
+            const testimonialsPrevBtn = document.querySelector('.testimonials-prev');
+            const testimonialsNextBtn = document.querySelector('.testimonials-next');
+
+            let scrollPosition = 0;
+            const sliderWidth = document.querySelector('.testimonials-slider').offsetWidth;
+            const testimonialWidth = document.querySelector('.testimonial-item').offsetWidth + 20; // Include margin
+
+            testimonialsNextBtn.addEventListener('click', () => {
+                if (scrollPosition > -(testimonialsItemsContainer.scrollWidth - sliderWidth)) {
+                    scrollPosition -= testimonialWidth;
+                    testimonialsItemsContainer.style.transform = `translateX(${scrollPosition}px)`;
+                }
+            });
+
+            testimonialsPrevBtn.addEventListener('click', () => {
+                if (scrollPosition < 0) {
+                    scrollPosition += testimonialWidth;
+                    testimonialsItemsContainer.style.transform = `translateX(${scrollPosition}px)`;
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FlyOver Holidays</title>
+    <link rel="icon" href="/flyover-holidays/img/logo_icon.png" type="image/icon type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/enquiry.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <div class="logo-container">
+                    <img id="logo" src="img/logo with text for black bg.jpg" alt="Company Logo" class="logo">
+
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 ">
+                    <a href="/flyover-holidays/index.html" class=" nav-item nav-link active">HOME</a>
+                    <a href="/flyover-holidays/about-us.html" class="nav-item nav-link">ABOUT US</a>
+                    <a href="/flyover-holidays/service.html" class="nav-item nav-link">SERVICES</a>
+                    <a href="/flyover-holidays/destinations.html" class="nav-item nav-link">DESTINATIONS</a>
+                    <a href="/flyover-holidays/packages.html" class="nav-item nav-link">PACKAGES</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="/flyover-holidays/blog.html" class="dropdown-item">BLOG</a>
+                            <a href="/flyover-holidays/testimonial.html" class="dropdown-item">TESTIMONIAL</a>
+                            <a href="/flyover-holidays/terms-and-conditions.html"
+                                class="dropdown-item">TERMS&CONDITIONS</a>
+                            <a href="/flyover-holidays/privacy-policy.html" class="dropdown-item">PRIVACY POLICY</a>
+                            <a href="/flyover-holidays/FAQs.html" class="dropdown-item">FREQUENTLY ASKED QUESTIONS</a>
+                            <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                        </div>
+                    </div>
+                    <a href="/flyover-holidays/contact.html" class="nav-item nav-link">CONTACT</a>
+                    <a href="/flyover-holidays/our-resorts.html" class="nav-item nav-link">OUR RESORTS</a>
+                </div>
+                <!-- <a href="" class="btn btn rounded-pill py-2 px-4">REGISTER</a> -->
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-color py-0 mb-0">
+            <!-- <div class="container py-5"> -->
+            <div class="row justify-content-center">
+                <!-- <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center"> -->
+                <!-- <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy Your Vacation With Us</h1>
+                    <p class="fs-4 text-white mb-4 animated slideInDown">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
+                    <div class="position-relative w-75 mx-auto animated slideInDown">
+                        <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand">
+                        <button type="button" class="btn btn rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- ENQUIRY FORM -->
+
+    <!-- Button to open the enquiry form -->
+    <div id="enquiry-button">
+        <button id="open-enquiry-form">Enquire Now</button>
+    </div>
+
+
+    <!-- <div class="container-f"> -->
+    <div id="enquiry-form" class="enquiry-form-popup" style="display: none;">
+        <button id="close-btn" class="close-btn">x</button>
+
+        <div class="contact-container">
+
+            <div class="left-col">
+                <img class="form-logo" src="img/logo with text for black bg-Photoroom.png" />
+            </div>
+            <div class="right-col">
+                <!-- Close Button -->
+
+                <h1>Contact us</h1>
+                <form id="submit-form" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="Your City" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="State">State</label>
+                            <select id="State" name="State" class="custom-dropdown">
+                                <option value="" disabled selected>Select your option</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                                <option value="Others">Others</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit" name="submit">Send</button>
+
+
+                </form>
+
+                <div id="error"></div>
+                <div id="success-msg"></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Image credit: Oliver Sjöström https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/  -->
+
+
+    <!-- Testimonial Start -->
+
+
+    <!-- -------------------- -->
+
+    <!-- Testimonial End -->
+
+
+
+
+
+    <section class="custom-testimonial-page">
+        <div class="custom-container">
+
+            <!-- <h1 class="custom-testimonial-title">Client Testimonials</h1> -->
+
+            <!-- Intro Section -->
+        <div class="custom-testimonial-intro">
+            <h2>What Our Clients Are Saying</h2>
+            <p>At Flyover Holidays, we take pride in delivering unforgettable travel experiences. Here's what some of our satisfied clients have to say about their trips with us. Read through these testimonials to get a glimpse of the magic we create!</p>
+        </div>
+
+
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <!-- <img src="img/gopika.jpg" alt="Gopika Kannan" class="custom-client-photo"> -->
+                    <div class="custom-client-photo" data-name="Gopika Kannan" id="profile-initials"></div>
+
+                    <h4 class="custom-client-name">Gopika Kannan</h4>
+                    <p class="custom-client-location">Kerala</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"We had an amazing vacation with Flyover Holidays. Amy was so helpful and friendly. They arranged
+                        such a good Maldives package for us. We had such a good time in Maldives. Will definitely plan
+                        our next vacation with them."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 220413.png" alt="Maldives 1">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 220438.png" alt="Maldives 2">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 220628.png" alt="Maldives 3">
+                </div>
+            </div>
+
+
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221446.png" alt="Sreelakshmi S"
+                        class="custom-client-photo">
+                    <h4 class="custom-client-name">Sreelakshmi S</h4>
+                    <p class="custom-client-location">Kerala</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"A big thanks to Amy and Flyover Holidays for organizing our trip to Maldives. Amy prepared the
+                        itinerary very well as per our requirements. She was very approachable and patient, responding
+                        actively to all our queries. Highly recommended service."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221419.png" alt="Maldives 4">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221429.png" alt="Maldives 5">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221457.png" alt="Maldives 6">
+                </div>
+            </div>
+
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221728.png" alt="Saumya Mohapatra"
+                        class="custom-client-photo">
+                    <h4 class="custom-client-name">Saumya Mohapatra</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"We were lucky to have Amy to assist us with our much-awaited trip to Maldives. Extremely happy
+                        and satisfied to have spent some good days of our life at Maldives. The resort we stayed was
+                        exquisite, and we had a great time exploring Maldives. We are eager to travel with you guys
+                        again in the near future, and I am sure that you guys will put out the best for our future
+                        travel endeavors as well. All the very best team Flyover."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221738.png" alt="Maldives 1">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221716.png" alt="Maldives 2">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221704.png" alt="Maldives 3">
+                </div>
+            </div>
+
+            <!-- Testimonial 2: Anil K -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222030.png" alt="Anil K"
+                        class="custom-client-photo">
+                    <h4 class="custom-client-name">Anil K</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"I had an exceptional experience booking with Flyover Holidays on a Maldives package. Amy was so
+                        supportive, helpful, and had a great amount of patience in designing the itinerary according to
+                        our requirements. To be precise, she was available across the clock to edit and rework on the
+                        itinerary with every change in our plan! Everything went smoothly, and all services were
+                        delivered on time, just as promised. The Flyover Holidays team was highly professional and
+                        ensured a seamless trip. I'm thoroughly impressed and would highly recommend Flyover Holidays to
+                        my family and friends. Their reliability and excellence will surely earn them loyal customers.
+                        Looking forward to my next trip with them!"</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221949.png" alt="Maldives 4">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 221959.png" alt="Maldives 5">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222030.png" alt="Maldives 6">
+                </div>
+            </div>
+
+            <!-- Testimonial 3: Swapnil Dsouza -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222322.png" alt="Swapnil Dsouza"
+                        class="custom-client-photo">
+                    <h4 class="custom-client-name">Swapnil Dsouza</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"Overall, it was a good experience with Flyover Holidays. We planned our trip to Thailand with
+                        them. This is the second time we’ve planned our trip through them. Hotel bookings and the
+                        activities planned for the entire week were relaxing and well-organized. We enjoyed all five
+                        days without any hassle. Amy from the Flyover team understood our requirements and coordinated
+                        beautifully. She was patient with us and made last-minute changes without any hesitation. Thank
+                        you 🙂."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222233.png" alt="Thailand 1">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222244.png" alt="Thailand 2">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222254.png" alt="Thailand 3">
+                </div>
+            </div>
+
+            <!-- Testimonial 4: Vishnuja U -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222542.png" alt="Vishnuja U"
+                        class="custom-client-photo">
+                    <h4 class="custom-client-name">Vishnuja U</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"I really recommend Flyover Holidays to arrange your trip to the Maldives. We had to arrange a
+                        family trip to the Maldives, and we were almost out of options for a reasonable budget for a big
+                        group of 11. Only Flyover Holidays gave us the best quote. The customer service was exquisite.
+                        The team was extremely patient in answering any mundane doubts, any time of the day. Really
+                        happy with their service. Great job, everyone!"</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222517.png" alt="Maldives 7">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222517.png" alt="Maldives 8">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222457.png" alt="Maldives 9">
+                </div>
+            </div>
+
+            <!-- Testimonial 5: Patel Satyam -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222646.png" alt="Patel Satyam"
+                        class="custom-client-photo">
+                    <h4 class="custom-client-name">Patel Satyam</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"Our trip was very fun, and all the hotels, drivers, and staff were very good. I had not expected
+                        that our trip to Bali would be like this. Thank you so much Flyover Holidays 💖 ❤️. And you all
+                        have to watch Bali's episode on my YouTube channel, my YouTube channel name is Satyam Patel
+                        MJ9."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222655.png" alt="Bali 1">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222704.png" alt="Bali 2">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 222714.png" alt="Bali 3">
+                </div>
+            </div>
+
+            <!-- Testimonial 2: Noufel Nbacler -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <!-- <img src="img/noufel.jpg" alt="Noufel Nbacler" class="custom-client-photo"> -->
+                    <div class="custom-client-photo" data-name="Noufel Nbacler" id="profile-initials"></div>
+
+                    <h4 class="custom-client-name">Noufel Nbacler</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"We were lucky to have Amy to assist us with our much-awaited trip to Maldives. She patiently
+                        listened to all our needs and shared budget-friendly rates for various options. I highly
+                        recommend Flyover Holidays for the best rates and high customer service. Special thanks to Amy
+                        for being kind and always available to help us with our queries and showing genuine care for
+                        customers. We will definitely come back to plan our next trip with Flyover Holidays."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223218.png" alt="Maldives 10">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223226.png" alt="Maldives 11">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223234.png" alt="Maldives 12">
+                </div>
+            </div>
+
+            <!-- Testimonial 3: Midhun B Madhu -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <!-- <img src="img/midhun.jpg" alt="Midhun B Madhu" class="custom-client-photo"> -->
+                    <div class="custom-client-photo" data-name="Midhun B Madhu" id="profile-initials"></div>
+
+                    <h4 class="custom-client-name">Midhun B Madhu</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"Amy did a wonderful job organizing our family trip to Maldives. She was incredibly kind and
+                        accommodating, and she responded to all our enquiries quickly. The resort we stayed in was
+                        exquisite, and we had a great time exploring Maldives. Many thanks to Amy for ensuring that this
+                        vacation will always be remembered. I highly recommend Flyover Holidays as your travel partner."
+                    </p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223324.png" alt="Maldives 13">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223333.png" alt="Maldives 14">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223342.png" alt="Maldives 15">
+                </div>
+            </div>
+
+            <!-- Testimonial 4: Nakul Thombre -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <!-- <img src="img/nakul.jpg" alt="Nakul Thombre" class="custom-client-photo"> -->
+                    <div class="custom-client-photo" data-name="Nakul Thombre" id="profile-initials"></div>
+
+                    <h4 class="custom-client-name">Nakul Thombre</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"I booked a trip to the Maldives with Flyover Holidays. Had an awesome experience with them. All
+                        arrangements and bookings were handled by them, and we didn’t encounter any issues during the
+                        whole trip. Jishnu from the agency gave us the best deal and was supportive throughout the
+                        process and during the trip. They were always available on the call. I will definitely book my
+                        next trip with them. Thanks for a great vacation."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223458.png" alt="Maldives 16">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223506.png" alt="Maldives 17">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223516.png" alt="Maldives 18">
+                </div>
+            </div>
+
+            <!-- Testimonial 5: Jinu Mathew -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <!-- <img src="img/jinu.jpg" alt="Jinu Mathew" class="custom-client-photo"> -->
+                    <div class="custom-client-photo" data-name="Jinu Mathew" id="profile-initials"></div>
+
+                    <h4 class="custom-client-name">Jinu Mathew</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"Huge thanks to Flyover Holidays and Amy for organizing our Bali trip. This was our second
+                        international trip with them. The itinerary was well-organized and detailed. Amy was quick to
+                        respond to our queries and arranged everything within our budget. I highly recommend them for
+                        both domestic and international vacation plans."</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223632.png" alt="Bali 4">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223640.png" alt="Bali 5">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223648.png" alt="Bali 6">
+                </div>
+            </div>
+
+
+
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="img/rupam.jpg" alt="Rupam Gohain" class="custom-client-photo">
+                    <h4 class="custom-client-name">Rupam Gohain</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"I recently returned from an incredible trip to the Maldives, organized by Flyover Holidays, and
+                        I couldn’t be more thrilled with the experience. Amy was top-notch, taking care of every detail.
+                        The accommodations were stunning, and the personalized attention made all the difference. Highly
+                        recommend Flyover Holidays for an unforgettable trip!"</p>
+                </div>
+                <!-- <div class="custom-gallery">
+                    <img src="img/maldives7.jpg" alt="Maldives 7">
+                    <img src="img/maldives8.jpg" alt="Maldives 8">
+                    <img src="img/maldives9.jpg" alt="Maldives 9">
+                </div> -->
+            </div>
+
+
+            <!-- Testimonial 6: Vinod Chitluri -->
+            <div class="custom-testimonial-item">
+                <div class="custom-author-details">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223859.png" alt="Vinod Chitluri" class="custom-client-photo">
+                    <h4 class="custom-client-name">Vinod Chitluri</h4>
+                    <p class="custom-client-location">India</p>
+                </div>
+                <div class="custom-testimonial-content">
+                    <p>"I recently booked my vacation trip to the Maldives with Flyover Holidays, and I am very happy
+                        with the service they provided. They took care of everything from start to finish, including
+                        transfers, accommodation, and activities. The staff was incredibly friendly and helpful, and
+                        they made sure our trip was memorable. Special thanks to Jishnu for taking care of everything.
+                        The resort they recommended was breathtakingly beautiful. I highly recommend Flyover Holidays
+                        for a stress-free and unforgettable travel experience. Thank you for everything!"</p>
+                </div>
+                <div class="custom-gallery">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223851.png" alt="Maldives 19">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223843.png" alt="Maldives 20">
+                    <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 223833.png" alt="Maldives 21">
+                </div>
+            </div>
+
+
+
+
+             <!-- Testimonial 1: Mahendra G -->
+        <div class="custom-testimonial-item">
+            <div class="custom-author-details">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 225047.png" alt="Mahendra G" class="custom-client-photo">
+                <h4 class="custom-client-name">Mahendra G</h4>
+                <p class="custom-client-location">India</p>
+            </div>
+            <div class="custom-testimonial-content">
+                <p>"Thank you Flyover Holidays team and thanks to Jishnu for my budget-friendly Maldives trip. Loved the over-water bungalow. The staff was really friendly and helpful. It's the perfect place for a relaxing, slow-paced vacation. Beautiful snorkeling in clear, calm waters. The food was consistently good, and I felt the variety was sufficient. I highly recommend the water excursion!"</p>
+            </div>
+            <div class="custom-gallery">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 225029.png" alt="Maldives 22">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 225037.png" alt="Maldives 23">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 225057.png" alt="Maldives 24">
+            </div>
+        </div>
+
+        <!-- Testimonial 2: Thomas Bonny Ukken -->
+        <div class="custom-testimonial-item">
+            <div class="custom-author-details">
+                <!-- <img src="img/thomas.jpg" alt="Thomas Bonny Ukken" class="custom-client-photo"> -->
+                <div class="custom-client-photo" data-name="Thomas Bonny Ukken" id="profile-initials"></div>
+
+                <h4 class="custom-client-name">Thomas Bonny Ukken</h4>
+                <p class="custom-client-location">India</p>
+            </div>
+            <div class="custom-testimonial-content">
+                <p>"Flyover Holidays helped us plan a great trip to the Maldives. The team was professional and catered to our requests to make the perfect package for us. My wife and I enjoyed the trip, and we got to see the most beautiful blue waters of Maldives. Thank you once again, highly recommended!"</p>
+            </div>
+            <div class="custom-gallery">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 225305.png" alt="Maldives 25">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 225248.png" alt="Maldives 26">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 225230.png" alt="Maldives 27">
+            </div>
+        </div>
+
+        <!-- Testimonial 3: Anil Pendse -->
+        <div class="custom-testimonial-item">
+            <div class="custom-author-details">
+                <!-- <img src="img/anil.jpg" alt="Anil Pendse" class="custom-client-photo"> -->
+                <div class="custom-client-photo" data-name="Anil Pendse" id="profile-initials"></div>
+
+                <h4 class="custom-client-name">Anil Pendse</h4>
+                <p class="custom-client-location">India</p>
+            </div>
+            <div class="custom-testimonial-content">
+                <p>"Amy from Flyover Holidays really made excellent arrangements for our recent trip to the Maldives. The selection of hotels, detailing of the itinerary, and inclusions were outstanding. The team was in constant touch with us prior to our departure. I will surely recommend Flyover Holidays for your future tours."</p>
+            </div>
+            <div class="custom-gallery">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230238.png" alt="Maldives 28">
+                <!-- <img src="img/maldives29.jpg" alt="Maldives 29">
+                <img src="img/maldives30.jpg" alt="Maldives 30"> -->
+            </div>
+        </div>
+
+        <!-- Testimonial 4: Rashmita Bhattacharya -->
+        <div class="custom-testimonial-item">
+            <div class="custom-author-details">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230441.png" alt="Rashmita Bhattacharya" class="custom-client-photo">
+                <h4 class="custom-client-name">Rashmita Bhattacharya</h4>
+                <p class="custom-client-location">India</p>
+            </div>
+            <div class="custom-testimonial-content">
+                <p>"We had booked our first international trip to the Maldives with Flyover Holidays on the occasion of our first wedding anniversary. I'm glad we chose Flyover Holidays as their quotes were the best, and throughout our travel, we had a smooth experience. Jishnu was actively involved and answered all our queries anytime. We highly recommend Flyover Holidays and Jishnu for their services. Thank you for making our anniversary memorable!"</p>
+            </div>
+            <div class="custom-gallery">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230414.png" alt="Maldives 31">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230426.png" alt="Maldives 32">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230453.png" alt="Maldives 33">
+            </div>
+        </div>
+
+        <!-- Testimonial 5: Muskan Kumari -->
+        <div class="custom-testimonial-item">
+            <div class="custom-author-details">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230616.png" alt="Muskan Kumari" class="custom-client-photo">
+                <h4 class="custom-client-name">Muskan Kumari</h4>
+                <p class="custom-client-location">India</p>
+            </div>
+            <div class="custom-testimonial-content">
+                <p>"It was a good experience with Flyover Holidays. Thank you for making our Maldives trip so special and memorable. Well-planned and a beautiful place. I would like to thank Jishnu and Amy for helping us plan our trip within our budget. Thank you, guys! We will definitely look forward to our next trip with Flyover Holidays."</p>
+            </div>
+            <div class="custom-gallery">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230646.png" alt="Maldives 34">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230636.png" alt="Maldives 35">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230626.png" alt="Maldives 36">
+            </div>
+        </div>
+
+        <!-- Testimonial 6: Akanksha Gupta -->
+        <div class="custom-testimonial-item">
+            <div class="custom-author-details">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230804.png" alt="Akanksha Gupta" class="custom-client-photo">
+                <h4 class="custom-client-name">Akanksha Gupta</h4>
+                <p class="custom-client-location">India</p>
+            </div>
+            <div class="custom-testimonial-content">
+                <p>"I really recommend Flyover Holidays to arrange your trip to Maldives. Jishnu was a great help in arranging a family trip to the Maldives and gave us the best quote, customized as per our preferences. The customer service was exquisite, and Jishnu was extremely patient in answering any doubts. I am really happy with their service!"</p>
+            </div>
+            <div class="custom-gallery">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230816.png" alt="Maldives 37">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230824.png" alt="Maldives 38">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230834.png" alt="Maldives 39">
+            </div>
+        </div>
+
+        <!-- Testimonial 7: Shubhra Malode -->
+        <div class="custom-testimonial-item">
+            <div class="custom-author-details">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230937.png" alt="Shubhra Malode" class="custom-client-photo">
+                <h4 class="custom-client-name">Shubhra Malode</h4>
+                <p class="custom-client-location">India</p>
+            </div>
+            <div class="custom-testimonial-content">
+                <p>"For the first time, we had booked with Flyover Holidays for our honeymoon trip to the Maldives and Munnar. We had an awesome trip. Special thanks to Mr. Jishnu for giving us proper suggestions and for arranging such a wonderful trip. Everything was arranged perfectly, and we didn’t face any difficulty during the entire trip. I would definitely recommend Flyover Holidays to my family and friends!"</p>
+            </div>
+            <div class="custom-gallery">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230945.png" alt="Maldives 40">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 230953.png" alt="Maldives 41">
+                <img src="/flyover-holidays/img/reviews/Screenshot 2024-10-13 231003.png" alt="Maldives 42">
+            </div>
+        </div>
+
+
+         <!-- Section for More Reviews and Google Review Link -->
+        <div class="custom-more-reviews-section">
+            <div class="custom-more-reviews-box">
+                <h4>For More Reviews</h4>
+                <p>Check out more of what our clients have to say on our Google Reviews page.</p>
+                <a href="https://g.co/kgs/TRAK3ES" target="_blank" class="custom-google-reviews-link">
+                    <button class="custom-review-btn">Click Here</button>
+                </a>
+            </div>
+        </div>
+
+        
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Icon NEW -->
+    <a href="https://wa.me/918921664272?text=Hello%2C%20I%27d%20like%20more%20info%20about%20your%20travel%20packages."
+        class="whatsapp-float" target="_blank">
+        <div class="whatsapp-tooltip">Chat with us on WhatsApp</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon">
+    </a>
+    <!-- Whatsapp End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid background-color-nav text-light footer pt-10 mt-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Company</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/about-us.html">About Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/contact.html">Contact Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/privacy-policy.html">Privacy Policy</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/terms-and-conditions.html">Terms & Conditions</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/FAQs.html">FAQs & Help</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Careers</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Blog</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <!-- <div class="col-lg-3 col-md-6"> -->
+                    <!-- <h4 class="gradient-text font-face">Follow Us</h4> -->
+
+                    <h4 class=" gradient-text montserrat-uniquifier-light">Quick Links</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Bali Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Dubai Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Kerala Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Malidives Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Thailand Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Armenia Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Turkey Tour Packages</a>
+                    <!-- </div> -->
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Get in Touch</h4>
+                    <p class="mb-2 montserrat-uniquifier-light">
+                        <i class="fa-solid fa-phone" style="color: white;"></i>
+                        <a href="tel:+918075512516">+91 80755 12516</a>
+
+                    </p>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-envelope"
+                            style="color: white;"></i><a
+                            href="mailto:info@flyoverholidays.com">info@flyoverholidays.com</a>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-house"
+                            style="color: white;"></i>Flyover Holidays,
+                        2nd Floor, Naureen Tower,
+                        Kaloor, Kochi,
+                        Kerala</p>
+                    </p>
+                    <div class="d-flex pt-2 ps-4">
+                        <a class="btn-soc  btn-social " href="https://x.com/FlyoverHolidays"><i
+                                class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://www.facebook.com/flyoverholidays"><i
+                                class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://youtube.com/@flyoverholidays7724"><i
+                                class="fa-brands fa-youtube fa-lg"></i></a>
+                        <a class="btn-soc  btn-social "
+                            href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i
+                                class="fa-brands fa-linkedin fa-lg"></i></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Gallery</h4>
+                    <a href="gallery.html">
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                            </div>
+
+                            <!-- <div class="col-4">
+                        <a href="gallery-maldives.html"><img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="Gallery-Maldives"></a>
+                    </div> -->
+
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text font-face mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">FlyOver Holidays</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="/flyover-holidays/index.html">Home</a>
+                            <!-- <a href="">Cookies</a> -->
+                            <a href="/flyover-holidays/contact.html">Help</a>
+                            <a href="/flyover-holidays/FAQs.html">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-color btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get all elements with the profile initials
+            const profileImages = document.querySelectorAll('.custom-client-photo');
+            
+            profileImages.forEach(function(profile) {
+                const fullName = profile.getAttribute('data-name');
+                if (fullName) {
+                    const nameParts = fullName.trim().split(' ');
+                    let initials = '';
+                    
+                    // Ensure only the first character of the first and last name
+                    if (nameParts.length >= 2) {
+                        initials = nameParts[0][0] + nameParts[1][0]; // First letters of first and last name
+                    } else {
+                        initials = nameParts[0][0]; // Handle single name case
+                    }
+                    
+                    profile.textContent = initials.toUpperCase(); // Ensure it's uppercase
+                }
+            });
+        });
+    </script>
+    
+</body>
+
+</html>

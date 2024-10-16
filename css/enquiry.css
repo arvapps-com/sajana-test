@@ -1,0 +1,236 @@
+:root {
+    --primary-color: #010712;
+    --secondary-color: #818386;
+    --bg-color: #FCFDFD;
+    --button-color: #3B3636;
+    --h1-color: #3F444C;
+}
+
+[data-theme="dark"] {
+    --primary-color: #FCFDFD;
+    --secondary-color: #818386;
+    --bg-color: #010712;
+    --button-color: #818386;
+    --h1-color: #FCFDFD;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-container {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    background: var(--bg-color);
+    
+}
+
+.left-col {
+    width: 45vw;
+    height: 80vh;
+    background-image: url("../img/Crafting\ Unforgettable\ Journeys!\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-logo {
+    width: 10rem;
+    padding: 1.5rem;
+}
+
+.right-col {
+    background: var(--bg-color);
+    width: 40vw;
+    height: 80vh;
+    padding: 3rem 2.5rem;
+    padding-bottom: 5.5rem;
+}
+
+h1, label, button {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+h1 {
+    /* color:var(--h1-color); */
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+}
+
+label {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-size: 0.625rem;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+}
+
+form {
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+input {
+    width: 100%;
+    display: block;
+    color: var(--primary-color);
+    font-weight: 500;
+    background: var(--bg-color);
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 300;
+    background: var(--button-color);
+    color: var(--bg-color);
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    padding: 4.5px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+.close-btn {
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    background: #ffffff00;
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.close-btn:hover {
+    background: #ffffff00;
+}
+
+#error, #success-msg {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-family: 'Jost';
+    color: var(--secondary-color);
+    margin-top: 1rem;
+}
+
+#success-msg {
+    transition-delay: 3s;
+}
+
+.success-message {
+    display: block; /* Ensure it's visible */
+    background: var(--bg-color); /* Use background color from your theme */
+    /* border: 1px solid var(--secondary-color); */
+    /* border-radius: 12px;  */
+    color: var(--h1-color); /* Use h1 color for text */
+    padding: 2rem; /* Padding around the text */
+    margin-top: 1rem; /* Space above the message */
+    position: relative;
+    width: 100%; /* Full width */
+    max-width: 500px; /* Maximum width */
+    box-sizing: border-box;
+    font-size: 1.125rem; /* Larger font size */
+    text-align: center; /* Centered text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    font-family: 'montserrat', sans-serif; /* Font */
+    top: 80px;
+    left: 20px;
+}
+
+
+.success-message h2 {
+    font-size: 2rem; /* Larger font size for "THANK YOU!" */
+    color: var(--primary-color); /* Use primary color for contrast */
+    margin-bottom: 1rem; /* Space below "THANK YOU!" */
+    font-weight: bold; /* Bold text */
+}
+
+
+.success-message i {
+    font-size: 3rem; /* Large icon size */
+    color: var(--button-color); /* Use button color for the icon */
+    margin-bottom: 0.5rem; /* Space below icon */
+}
+
+.success-message p {
+    margin: 0;
+    font-weight: bold; /* Bold text */
+    color: var(--primary-color); /* Primary color for the paragraph text */
+}
+
+ 
+
+.success-message:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.custom-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    padding: 0.5rem;
+    width: 100%;
+    border: non;
+    border-radius: 4px;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+    
+    /* Custom arrow */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'><path fill='%23818386' d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.5rem;
+}
+
+.custom-dropdown:focus {
+    border-color: var(--primary-color);
+}
+
+.custom-dropdown:hover {
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+}
+
+.custom-dropdown option {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}

@@ -1,0 +1,72 @@
+/* Enquiry Form Styling */
+.fixed-enquiry-form {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 20px; /* Adjust top margin as needed */
+    width: 100%;
+    max-width: 350px; /* Adjust width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+}
+
+.fixed-enquiry-form .bg-light {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.fixed-enquiry-form h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.fixed-enquiry-form .form-group {
+    margin-bottom: 15px;
+}
+
+.fixed-enquiry-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.fixed-enquiry-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.fixed-enquiry-form .btn-primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fixed-enquiry-form .btn-primary:hover {
+    background: #0056b3;
+}
+
+/* Adjust layout to ensure the enquiry form fits within content area */
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 100px; /* Ensure space for the footer */
+}
+
+.footer {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: auto; /* Pushes footer to bottom of page */
+}

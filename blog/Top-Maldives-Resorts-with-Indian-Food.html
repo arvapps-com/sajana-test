@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FlyOver Holidays - Travel Agency HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+
+
+<!-- Navbar & Hero Start -->
+<div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+            <div class="logo-container">
+                <img id="logo" src="../img/logo with text for black bg.jpg" data-white-bg-src="../img/logo with text for white bg.jpg" 
+                data-black-bg-src="../img/logo with text for black bg.jpg" alt="Company Logo" class="logo">
+                
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link montserrat-uniquifier-light">Home</a>
+                <a href="about.html" class="nav-item nav-link montserrat-uniquifier-light">About Us</a>
+                <a href="service.html" class="nav-item nav-link montserrat-uniquifier-light">Services</a>
+                
+                <a href="destination.html" class="nav-item nav-link montserrat-uniquifier-light">Destinations</a>
+                <a href="package.html" class="nav-item nav-link montserrat-uniquifier-light">Packages</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link montserrat-uniquifier-light dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="blog.html" class="dropdown-item montserrat-uniquifier-light">Blog</a>
+                        <a href="testimonial.html" class="dropdown-item montserrat-uniquifier-light">Testimonial</a>
+                        <a href="terms-and-conditions.html" class="dropdown-item montserrat-uniquifier-light">Terms&Conditions</a>
+                        <a href="privacy-policy.html" class="dropdown-item montserrat-uniquifier-light">Privacy Policy</a>
+                        <a href="FAQs.html" class="dropdown-item montserrat-uniquifier-light">Frequently Asked Questions</a>
+                        <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link montserrat-uniquifier-light">Contact</a>
+            </div>
+                
+            <a href="" class="btn btn rounded-pill py-2 px-4 montserrat-uniquifier-light">Register</a>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-color py-0 mb-0">
+        <!-- <div class="container py-5"> -->
+            <div class="row justify-content-center">
+                <!-- <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center"> -->
+                    <!-- <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy Your Vacation With Us</h1>
+                    <p class="fs-4 text-white mb-4 animated slideInDown">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
+                    <div class="position-relative w-75 mx-auto animated slideInDown">
+                        <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand">
+                        <button type="button" class="btn btn rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        <!-- </div> -->
+    </div>
+</div>
+<!-- Navbar & Hero End -->
+
+
+
+<!-- ENQUIRY FORM -->
+
+
+<!-- <div id="enquiry-form" class="enquiry-form-popup">
+<div class=" enquiry-form-content montserrat-uniquifier-light"> 
+    <span class="close-btn" id="close-btn">&times;</span> -->
+        <!-- <div style="text-align:center">
+        <h2 class="enquire-heading gradient-text montserrat-uniquifier-bold ">Contact Us</h2>
+        </div>
+    <div class="row">
+      
+      <div class="enquiry-form-container control">
+        <form id="submit-form"  action="">
+          
+        <label for="name">Name</label>
+          <input type="text" id="name" name="name" required="" placeholder="Enter your name">
+          
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" required="" placeholder="Enter your email id">
+
+          <label for="phone">Mobile Number</label>
+          <input type="text" id="phone" name="phone" required="" maxlength="10" placeholder="Enter your mobile number">
+
+          
+            
+          
+          <label for="State">State</label>
+          <select id="State" name="State">
+            <option value="" disabled selected>Select your option</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Others">Others</option>
+          </select>
+         
+          <label for="city">City of Residence</label>
+          <input type="text" id="city" name="city" required="" placeholder="Enter your city of residence">
+          
+          
+          <input type="submit" value="Submit">
+        </form>
+     </div>
+     
+    </div>
+  </div>
+</div> -->
+
+<!-- ENQUIRY FORM END -->
+
+<!-- Header -->
+<!-- <header class="bg-light py-3">
+    <div class="container">
+        <h1 class="text-center">Travel Blog</h1>
+    </div>
+</header> -->
+
+<!-- Blog Post Content -->
+<main class="container my-5 justify-text">
+    <div class="row">
+        <!-- Blog Post Content -->
+        <div class="col-md-8">
+            <article class="article montserrat-uniquifier-light">
+                <h1 class="montserrat-uniquifier-bold">List of Top Maldives Resorts with Indian Food</h1>
+                <p>
+                    The Maldives is a dream destination for many, with its stunning overwater bungalows, crystal-clear waters, and vibrant marine life. However, one concern for many Indian travelers is the availability of authentic Indian cuisine. Thankfully, many top Maldives resorts cater specifically to this need, ensuring that you can enjoy delicious Indian meals while soaking in the tropical paradise. In this blog, we'll explore some of the best Maldives resorts where you can savor authentic Indian food.
+                </p>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">1. Amaya Kuda Rah Maldives Resort</h2>
+
+                    <img src="../img/gallery/maldives/resorts/amaya kuda rah.jpg" alt="Amaya Kuda Rah Maldives Resort" class="responsive-image">
+
+                    <p>
+                        Amaya Kuda Rah Maldives Resort is a luxurious getaway located in the South Ari Atoll. This resort offers a perfect blend of comfort, luxury, and a touch of home with its authentic Indian cuisine. The resort’s Amaya Food Gallery features a variety of dining options, including a dedicated section for Indian cuisine. From spicy curries to fresh naan bread, the chefs at Amaya Kuda Rah ensure that Indian flavors are well-represented. The resort also offers private dining options, allowing you to enjoy your favorite Indian dishes in the comfort of your villa.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Private Pool Villas: Each villa comes with a private pool and direct access to the beach or lagoon.</li>
+                        <li>Diving and Snorkeling: The resort is close to some of the best diving spots in the Maldives, including the Kuda Rah Thila, a famous dive site.</li>
+                        <li>Spa and Wellness: Amaya Spa offers a variety of treatments, including traditional Ayurvedic therapies.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Does Amaya Kuda Rah offer vegetarian Indian dishes?</strong></p>
+                        <p>A: Yes, the resort offers a variety of vegetarian Indian dishes, including Jain options.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Can I request special dietary needs?</strong></p>
+                        <p>A: Yes, the resort’s chefs are happy to accommodate special dietary requests.</p>
+                    </div>
+                </section>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">2. Adaaran Select Hudhuran Fushi</h2>
+                    <img src="../img/gallery/maldives/resorts/Adaaran Select Hudhuran Fushi.jpg" alt="Amaya Kuda Rah Maldives Resort" class="responsive-image">
+
+                    <p>
+                        Adaaran Select Hudhuran Fushi is known for its warm hospitality and excellent service. The resort’s Indian restaurant, Indian Pavilion, offers a diverse menu of North and South Indian dishes, including popular favorites like biryani, tandoori chicken, and dosa. The restaurant also caters to specific dietary needs, including vegetarian and Jain meals. The all-inclusive packages at Hudhuran Fushi ensure that you can enjoy unlimited meals and drinks throughout your stay.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Surfing Paradise: The resort is a popular destination for surfers, with easy access to some of the best surf breaks in the Maldives.</li>
+                        <li>Water Villas: Experience the luxury of staying in a water villa with direct access to the turquoise lagoon.</li>
+                        <li>Premium All-Inclusive: Enjoy unlimited food and beverages, including Indian dishes, as part of the all-inclusive package.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Is Indian Pavilion open for all meals?</strong></p>
+                        <p>A: Yes, Indian Pavilion is open for breakfast, lunch, and dinner.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Do they offer Jain food?</strong></p>
+                        <p>A: Yes, Jain food is available upon request.</p>
+                    </div>
+                </section>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">3. Olhuveli Beach & Spa Maldives</h2>
+                    <p>
+                        Located in the South Malé Atoll, Olhuveli Beach & Spa is part of the Sun Siyam Resorts, known for its excellent hospitality and dining options. The resort’s Four Spices restaurant offers a menu featuring Indian, Thai, and Maldivian cuisine. The Indian section of the menu includes a variety of dishes from different regions of India, prepared with authentic spices and ingredients. The resort also offers special dining experiences, such as beach barbecues and private dinners, where Indian cuisine can be specially prepared.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Multiple Dining Options: The resort has several restaurants and bars, offering a variety of cuisines, including Indian.</li>
+                        <li>Water Activities: Olhuveli offers a range of water sports, including windsurfing, kitesurfing, and diving.</li>
+                        <li>Family-Friendly: The resort is very kid-friendly, with a dedicated kids' club and family villas.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Does Olhuveli Beach & Spa offer all-inclusive packages?</strong></p>
+                        <p>A: Yes, the resort offers all-inclusive packages that include meals, drinks, and activities.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Are Indian vegetarian dishes available?</strong></p>
+                        <p>A: Yes, Indian vegetarian dishes are available at the Four Spices restaurant.</p>
+                    </div>
+                </section>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">4. Hideaway Beach Resort & Spa</h2>
+                    <p>
+                        Hideaway Beach Resort & Spa, located in the northern Haa Alifu Atoll, is a luxurious retreat that offers privacy and seclusion. The resort’s Matheefaru restaurant includes a dedicated section for Indian cuisine, where guests can enjoy a variety of dishes, from creamy butter chicken to spicy vindaloo. The resort also offers tailor-made dining experiences, where you can request your favorite Indian dishes to be served in your villa or on the beach.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Exclusive Privacy: The villas are designed to offer maximum privacy, making it an ideal choice for honeymooners.</li>
+                        <li>Luxury Spa: The Hideaway Spa offers a range of treatments, including traditional Indian Ayurvedic therapies.</li>
+                        <li>Personal Butler Service: Each villa comes with a personal butler who can arrange dining experiences, including Indian cuisine.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Can I request Indian food in my villa?</strong></p>
+                        <p>A: Yes, the resort offers in-villa dining with Indian cuisine available on request.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Does the resort offer halal food?</strong></p>
+                        <p>A: Yes, the resort’s restaurants offer halal food, including Indian dishes.</p>
+                    </div>
+                </section>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">5. JA Manafaru Maldives</h2>
+                    <p>
+                        JA Manafaru is a luxurious island retreat located in the northernmost atoll of the Maldives. The resort’s White Orchid restaurant offers a variety of Asian cuisines, including Indian. The Indian menu features both vegetarian and non-vegetarian options, with dishes prepared by skilled chefs who understand the nuances of Indian cooking. The resort also offers private dining experiences, including beach dinners and in-villa dining with a focus on Indian cuisine.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Secluded Location: JA Manafaru offers ultimate seclusion, making it a perfect choice for those looking to escape the crowds.</li>
+                        <li>Signature Dining: Enjoy signature dining experiences, including a romantic beach dinner with Indian dishes.</li>
+                        <li>Wine Cellar: The resort’s wine cellar offers an extensive selection of wines to complement your meals.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Is there a vegetarian Indian menu available?</strong></p>
+                        <p>A: Yes, the Indian menu at White Orchid includes a range of vegetarian options.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Can I book a private beach dinner with Indian food?</strong></p>
+                        <p>A: Yes, the resort offers private beach dinners with Indian cuisine.</p>
+                    </div>
+                </section>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">6. Kuramathi Maldives</h2>
+                    <p>
+                        Kuramathi Maldives is one of the largest resorts in the Maldives, offering a wide range of dining options, including Indian cuisine at the Tandoor Mahal restaurant. The restaurant is known for its flavorful tandoori dishes, biryanis, and a variety of vegetarian options. The resort’s diverse dining experiences also include private beach dinners and romantic meals under the stars, where you can enjoy Indian dishes specially prepared for you.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Extensive Dining Options: Kuramathi offers multiple dining options, with over ten restaurants and bars to choose from.</li>
+                        <li>Eco-Friendly Practices: The resort is committed to sustainability, with eco-friendly practices in place.</li>
+                        <li>Family-Friendly: Kuramathi is a great option for families, with a kids’ club and family villas available.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Does Tandoor Mahal offer both North and South Indian dishes?</strong></p>
+                        <p>A: Yes, the restaurant offers a mix of North and South Indian dishes.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Are there Indian-themed nights at the resort?</strong></p>
+                        <p>A: Yes, the resort occasionally hosts Indian-themed nights with a special menu.</p>
+                    </div>
+                </section>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">7. Sun Island Resort & Spa</h2>
+                    <p>
+                        Sun Island Resort & Spa is located in the South Ari Atoll and is one of the largest resorts in the Maldives. The resort’s Maaniyaa restaurant offers a dedicated Indian cuisine section, featuring a variety of dishes from across India. The chefs use traditional recipes and fresh ingredients to create authentic flavors that will remind you of home. The resort also offers special dining experiences, including private dinners on the beach with a customized Indian menu.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Wide Range of Activities: Sun Island offers a variety of activities, including diving, fishing, and water sports.</li>
+                        <li>Affordable Luxury: The resort offers luxury at an affordable price, making it accessible to a wide range of travelers.</li>
+                        <li>Beautiful Beaches: The resort is home to some of the most beautiful beaches in the Maldives.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Does Maaniyaa restaurant offer Jain food?</strong></p>
+                        <p>A: Yes, Jain food is available upon request.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Are there any Indian chefs at the resort?</strong></p>
+                        <p>A: Yes, the resort has Indian chefs who specialize in preparing authentic Indian dishes.</p>
+                    </div>
+                </section>
+    
+                <section class="resort">
+                    <h2 class="montserrat-uniquifier-bold">8. Sheraton Maldives Full Moon Resort & Spa</h2>
+                    <p>
+                        Sheraton Maldives Full Moon Resort & Spa, located on Furanafushi Island, is a luxurious resort that offers a variety of dining options, including Indian cuisine at its Feast restaurant. The Indian section of the buffet features a range of dishes, from spicy curries to freshly baked naan. The resort also offers private dining experiences, where you can enjoy Indian food in a romantic setting, such as on the beach or in your villa.
+                    </p>
+                    <p><strong>Peculiarities:</strong></p>
+                    <ul>
+                        <li>Proximity to Malé: The resort is just a 15-minute speedboat ride from Malé, making it easily accessible.</li>
+                        <li>Luxury Spa: The Shine Spa offers a variety of treatments, including Ayurvedic therapies.</li>
+                        <li>Family-Friendly: Sheraton Maldives is great for families, with a kids’ club and family villas available.</li>
+                    </ul>
+                    <p><strong>FAQs:</strong></p>
+                    <div class="faq">
+                        <p><strong>Q: Is there a separate Indian menu available at Feast?</strong></p>
+                        <p>A: Yes, the Indian section of the buffet offers a variety of dishes, and a separate menu can be arranged upon request.</p>
+                    </div>
+                    <div class="faq">
+                        <p><strong>Q: Can I request Indian food for room service?</strong></p>
+                        <p>A: Yes, Indian food can be ordered through room service.</p>
+                    </div>
+                </section>
+    
+                <!-- <h2>Conclusion:</h2> -->
+                <p>
+                    These top Maldives resorts ensure that Indian travelers can enjoy their vacation without compromising on their dietary preferences. From luxurious dining experiences to the comfort of home-cooked Indian meals, these resorts offer it all. Ready to book your stay? Explore our Maldives packages and start planning your dream vacation today!
+                </p>
+            </article>
+        </div>
+
+        
+      <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2 class="montserrat-uniquifier-bold">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">What is the best time to visit the Maldives?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>The best time to visit the Maldives is from November to April when the weather is pleasant and dry. This period is ideal for beach activities and water sports.</p>
+                </div>
+            </div>
+            <!-- <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">Are there any restrictions on beachwear?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>In most tourist areas, there are no restrictions on beachwear. However, it’s important to dress modestly when visiting local islands and cultural sites.</p>
+                </div>
+            </div> -->
+            <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">What activities can I do at the beaches?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>Beaches in the Maldives offer a range of activities including snorkeling, diving, kayaking, paddleboarding, and beach volleyball. Many resorts also provide organized excursions and water sports.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <button class="faq-toggle">
+                    <i class="fa fa-chevron-down"></i>
+                    <i class="fa fa-times"></i>
+                </button>
+                <h3 class="faq-title montserrat-uniquifier-bold">Can I find budget accommodation in the Maldives?</h3>
+                <div class="faq-text montserrat-uniquifier-light">
+                    <p>Yes, there are budget accommodation options available in the Maldives, particularly on local islands. These options offer a more affordable way to experience the beauty of the Maldives without the high costs of luxury resorts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Enquiry Form -->
+     <aside id="fixed-form" class="fixed-enquiry-form">
+        <!-- <div class="container bg-light p-4 rounded"> -->
+            <h3 class="montserrat-uniquifier-bold">Enquire Now</h3>
+            <form >
+                <div class="form-group control">
+                    <label for="fixed-name" class="fixed-label">Name</label>
+                    <input type="text" id="fixed-name" name="name" required="" placeholder="Enter your name">
+                </div>
+                <div class="form-group control">
+                    <label for="fixed-email" class="fixed-label">Email</label>
+                    <input type="text" id="fixed-email" name="email" required="" placeholder="Enter your email id">
+                </div>
+                <div class="form-group control">
+                    <label for="fixed-phone" class="fixed-label">Phone</label>
+                    <input type="tel" id="fixed-phone" name="phone" required="" maxlength="10" placeholder="Enter your mobile number"> 
+                </div>
+
+                <!-- <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div> -->
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+                
+            </form>
+        <!-- </div> -->
+    </aside>
+    </div>
+</main>
+<!-- WhatsApp Floating Icon NEW -->
+<a href="https://wa.me/918921664272?text=Hello%2C%20I%27d%20like%20more%20info%20about%20your%20travel%20packages."
+   class="whatsapp-float" 
+   target="_blank">
+    <div class="whatsapp-tooltip">Chat with us on WhatsApp</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon">
+</a>
+<!-- Whatsapp End -->
+
+ <!-- Footer Start -->
+ <div class="container-fluid background-color-nav text-light footer pt-10 mt-4 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Company</h4>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="" >About Us</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Contact Us</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Privacy Policy</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Terms & Conditions</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">FAQs & Help</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Careers</a>
+                <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Blog</a>
+            </div>
+           
+            <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6"> -->
+                    <!-- <h4 class="gradient-text font-face">Follow Us</h4> -->
+                
+                    <h4 class=" gradient-text montserrat-uniquifier-light">Quick Links</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Bali Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Dubai Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Kerala Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Malidives Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Thailand Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Armenia Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="">Turkey Tour Packages</a>
+                <!-- </div> -->
+                
+               
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Get in Touch</h4>
+                <p class="mb-2 montserrat-uniquifier-light">
+                    <i class="fa fa-phone-alt custom-phone-icon me-3" style="color: white;"></i>
+                    <a href="tel:+918075512516">+91 80755 12516</a> 
+                
+                </p>
+                <p class="mb-2 montserrat-uniquifier-light"><i class="fa fa-envelope custom-phone-icon me-3" style="color: white;"></i><a href="mailto:info@flyoverholidays.com">info@flyoverholidays.com</a>
+                <p class="mb-2 montserrat-uniquifier-light"><i class="fa fa-home custom-phone-icon me-3" style="color: white;"></i>Flyover Holidays,
+                    2nd Floor, Naureen Tower,
+                    Kaloor, Kochi,
+                    Kerala</p>
+                </p>
+                <div class="d-flex pt-2 ps-4">
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://x.com/FlyoverHolidays"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://www.facebook.com/flyoverholidays"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://youtube.com/@flyoverholidays7724"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social button-gradient" href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>   
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Gallery</h4>
+                <a href="gallery.html">
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                    </div>
+
+                    <!-- <div class="col-4">
+                        <a href="gallery-maldives.html"><img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="Gallery-Maldives"></a>
+                    </div> -->
+
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text font-face mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">FlyOver Holidays</a>, All Right Reserved.
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <!-- <a href="">Cookies</a> -->
+                        <a href="">Help</a>
+                        <a href="">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>

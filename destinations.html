@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Destinations | Flyover Holidays</title>
+    <link rel="icon" href="/flyover-holidays/img/logo_icon.png" type="image/icon type">
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/enquiry.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://x.com/FlyoverHolidays"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/flyoverholidays"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/flyover_holidays"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://youtube.com/@flyoverholidays7724"><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+
+<!-- Navbar & Hero Start -->
+<div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+                <div class="logo-container">
+                    <img id="logo" src="img/logo with text for black bg.jpg" alt="Company Logo" class="logo">
+                    
+                </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 ">
+                <a href="/flyover-holidays/index.html" class=" nav-item nav-link active">HOME</a>
+                <a href="/flyover-holidays/about-us.html" class="nav-item nav-link">ABOUT US</a>
+                <a href="/flyover-holidays/service.html" class="nav-item nav-link">SERVICES</a>
+                <a href="/flyover-holidays/destinations.html" class="nav-item nav-link">DESTINATIONS</a>
+                <a href="/flyover-holidays/packages.html" class="nav-item nav-link">PACKAGES</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/flyover-holidays/blog.html" class="dropdown-item">BLOG</a>
+                        <a href="/flyover-holidays/testimonial.html" class="dropdown-item">TESTIMONIAL</a>
+                        <a href="/flyover-holidays/terms-and-conditions.html" class="dropdown-item">TERMS&CONDITIONS</a>
+                        <a href="/flyover-holidays/privacy-policy.html" class="dropdown-item">PRIVACY POLICY</a>
+                        <a href="/flyover-holidays/FAQs.html" class="dropdown-item">FREQUENTLY ASKED QUESTIONS</a>
+                        <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                    </div>
+                </div>
+                <a href="/flyover-holidays/contact.html" class="nav-item nav-link">CONTACT</a>
+                <a href="/flyover-holidays/our-resorts.html" class="nav-item nav-link">OUR RESORTS</a>
+            </div>
+            <!-- <a href="" class="btn btn rounded-pill py-2 px-4">REGISTER</a> -->
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-color py-0 mb-0">
+        <!-- <div class="container py-5"> -->
+            <div class="row justify-content-center">
+                <!-- <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center"> -->
+                    <!-- <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy Your Vacation With Us</h1>
+                    <p class="fs-4 text-white mb-4 animated slideInDown">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
+                    <div class="position-relative w-75 mx-auto animated slideInDown">
+                        <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand">
+                        <button type="button" class="btn btn rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        <!-- </div> -->
+    </div>
+</div>
+<!-- Navbar & Hero End -->
+
+<!-- ENQUIRY FORM -->
+
+    <!-- Button to open the enquiry form -->
+    <div id="enquiry-button">
+        <button id="open-enquiry-form">Enquire Now</button>
+    </div>
+
+
+    <!-- <div class="container-f"> -->
+    <div id="enquiry-form" class="enquiry-form-popup"  style="display: none;">
+        <button id="close-btn" class="close-btn">x</button>
+
+        <div class="contact-container">
+
+            <div class="left-col">
+                <img class="form-logo" src="img/logo with text for black bg-Photoroom.png" />
+            </div>
+            <div class="right-col">
+                <!-- Close Button -->
+
+                <h1>Contact us</h1>
+                <form id="submit-form" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="Your City" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="State">State</label>
+                            <select id="State" name="State" class="custom-dropdown">
+                                <option value="" disabled selected>Select your option</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                                <option value="Others">Others</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit" name="submit">Send</button>
+
+
+                </form>
+
+                <div id="error"></div>
+                <div id="success-msg"></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Image credit: Oliver Sjöström https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/  -->
+
+
+
+   
+
+
+    <section id="destinations-section" class="destination-grid-section">
+        <div class="destination-container">
+            <h2 class="destination-title">Explore Our Top Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/maldives/resorts/gallery-resort-aerial-villas.jpg" alt="Maldives" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Maldives</h3>
+                        <p class="destination-description">A tropical paradise known for its stunning beaches and clear waters.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/maldives.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/mauritius/mauritius-4390436_1920.jpg" alt="Mauritius" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Mauritius</h3>
+                        <p class="destination-description">An island nation known for its beaches, lagoons, and coral reefs.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/mauritius.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/russia/pexels-vierro-2008087-3629813.jpg" alt="Russia" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Russia</h3>
+                        <p class="destination-description">Rich in history, art, and culture, home to iconic landmarks.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/russia.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/azerbaijan/azerbaijan-ganja-travel-photo-20191119124819216-main-image.jpg" alt="Azerbaijan" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Azerbaijan</h3>
+                        <p class="destination-description">A blend of ancient culture and modern architecture.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/azerbaijan.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/mexico/chichen-itza-683193_1280.jpg" alt="Mexico" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Mexico</h3>
+                        <p class="destination-description">Known for its vibrant culture, history, and delicious cuisine.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/mexico.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/turkey/cappadocia-765498_1920.jpg" alt="Turkey" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Turkey</h3>
+                        <p class="destination-description">A transcontinental country with rich history and diverse landscapes.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/turkey.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/vietnam/vietnam-8400803_1920.jpg" alt="Vietnam" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Vietnam</h3>
+                        <p class="destination-description">Famous for its beaches, rivers, and Buddhist pagodas.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/vietnam.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/greece/pexels-apasaric-1285625.jpg" alt="Greece" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Greece</h3>
+                        <p class="destination-description">Known for its beautiful islands and rich history.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/greece.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/bora-bora/bora-bora-2542917_1920.jpg" alt="Bora Bora" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Bora Bora</h3>
+                        <p class="destination-description">A small island in French Polynesia known for its turquoise waters.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/bora-bora.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <!-- <div class="destination-box">
+                    <img src="img/IMG_6766.JPG" alt="Dubai" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Dubai</h3>
+                        <p class="destination-description">A city known for luxury shopping and ultramodern architecture.</p>
+                        <a href="/flyover-holidays/destinations/dubai.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="img/IMG_6767.JPG" alt="India" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">India</h3>
+                        <p class="destination-description">A country with a rich cultural heritage and diverse landscapes.</p>
+                        <a href="/flyover-holidays/destinations/india.html" class="destination-link">Discover More</a>
+                    </div>
+                </div> -->
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/seychelles/seychelles.jpeg" alt="Seychelles" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Seychelles</h3>
+                        <p class="destination-description">An archipelago known for its beautiful beaches and nature reserves.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/seychelles.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <!-- <div class="destination-box">
+                    <img src="img/IMG_6767.JPG" alt="Thailand" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Thailand</h3>
+                        <p class="destination-description">Famous for its tropical beaches and ornate temples.</p>
+                        <a href="/flyover-holidays/destinations/thailand.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="img/IMG_6762.JPG" alt="Italy" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Italy</h3>
+                        <p class="destination-description">Known for its art, architecture, and culinary delights.</p>
+                        <a href="/flyover-holidays/destinations/italy.html" class="destination-link">Discover More</a>
+                    </div>
+                </div> -->
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/france/versailles-880354_1920.jpg" alt="France" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">France</h3>
+                        <p class="destination-description">Famous for its art, fashion, and culture.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/france.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/switzerland/lake-1681485_1280.jpg" alt="Switzerland" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Switzerland</h3>
+                        <p class="destination-description">Known for its stunning landscapes and high-quality chocolate.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/switzerland.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/australia/lighthouse-2910670_1920.jpg" alt="Australia" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Australia</h3>
+                        <p class="destination-description">Known for its unique wildlife and beautiful beaches.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/australia.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/europe/neist-point-540119_1920.jpg" alt="Europe" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Europe</h3>
+                        <p class="destination-description">Home to diverse cultures, languages, and histories.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/europe.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/georgia/georgia-7537197_1280.jpg" alt="Georgia" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Georgia</h3>
+                        <p class="destination-description">Known for its diverse landscapes and rich history.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/georgia.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/netherlands/flowers-3344661_1280.jpg" alt="Netherlands" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Netherlands</h3>
+                        <p class="destination-description">Famous for its canals, tulip fields, and windmills.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/netherlands.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/finland/Reindeer_safari_aurora - Antti Pietik_inen_optimized.jpg" alt="Finland" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Finland</h3>
+                        <p class="destination-description">Known for its stunning natural landscapes and northern lights.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/finland.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/armenia/Tatev-Armenia.jpg" alt="Armenia" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Armenia</h3>
+                        <p class="destination-description">Rich in history, culture, and stunning landscapes.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/armenia.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/srilanka/pexels-viraj-ranasingha-48517372-11442148.jpg" alt="Sri Lanka" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Sri Lanka</h3>
+                        <p class="destination-description">Known for its diverse landscapes and rich heritage.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/sri-lanka.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/amsterdam/amsterdam-4045137.jpg" alt="Amsterdam" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Amsterdam</h3>
+                        <p class="destination-description">Famous for its canals, historic museums, and vibrant culture.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/amsterdam.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/paris/eiffel-tower-3349075.jpg" alt="Paris" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Paris</h3>
+                        <p class="destination-description">Renowned for its iconic landmarks, art, and world-class cuisine.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/paris.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                <!-- ---------------------------------- -->
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/singapore/singapore.jpg" alt="Singapore" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">Singapore</h3>
+                        <p class="destination-description">A city known for its modern architecture, shopping, and diverse culture.</p>
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/singapore.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+                
+
+                <!-- <div class="destination-box">
+                    <img src="img/usa.jpg" alt="USA" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">USA</h3>
+                        <p class="destination-description">A diverse country with iconic landmarks and culture.</p>
+                        <a href="/flyover-holidays/destinations/usa.html" class="destination-link">Discover More</a>
+                    </div>
+                </div> -->
+                <div class="destination-box">
+                    <img src="/flyover-holidays/img/gallery/new-zealand/newzealand-5158545.jpg" alt="New Zealand" class="destination-image">
+                    <div class="destination-details">
+                        <h3 class="destination-name">New Zealand</h3>
+                        <p class="destination-description">Famous for its stunning landscapes and Maori culture.</p>
+                        <!-- <a href="/flyover-holidays/destinations/new-zealand.html" class="destination-link">Discover More</a> -->
+                    </div>
+                    <div class="destination-button-container">
+                        <a href="/flyover-holidays/destinations/new-zealand.html" class="destination-link">Discover More</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Destination Start -->
+<!-- <div class="container-xxl py-5 destination-section">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-gold px-3">Destination</h6>
+            <h1 class="mb-5 text-white">Popular Destinations</h1>
+        </div>
+        <div class="row g-3">
+            <div class="col-lg-7 col-md-6">
+                <div class="row g-3">
+                    <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                        <a class="destination-box position-relative d-block overflow-hidden" href="./destinations/thailand.html">
+                            <img class="img-fluid" src="img/destination-1.jpg" alt="Thailand">
+                            <div class="discount-badge text-danger fw-bold">30% OFF</div>
+                            <div class="destination-name text-color fw-bold">Thailand</div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                        <a class="destination-box position-relative d-block overflow-hidden" href="">
+                            <img class="img-fluid" src="img/destination-2.jpg" alt="Malaysia">
+                            <div class="discount-badge text-danger fw-bold">25% OFF</div>
+                            <div class="destination-name text-color fw-bold">Malaysia</div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                        <a class="destination-box position-relative d-block overflow-hidden" href="">
+                            <img class="img-fluid" src="img/destination-3.jpg" alt="Australia">
+                            <div class="discount-badge text-danger fw-bold">35% OFF</div>
+                            <div class="destination-name text-color fw-bold">Australia</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s">
+                <a class="destination-box position-relative d-block h-100 overflow-hidden" href="">
+                    <img class="img-fluid w-100 h-100" src="img/destination-4.jpg" alt="Indonesia" style="object-fit: cover;">
+                    <div class="discount-badge text-danger fw-bold">20% OFF</div>
+                    <div class="destination-name text-color fw-bold">Indonesia</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- Destination End -->
+        
+    <!-- WhatsApp Floating Icon NEW -->
+<a href="https://wa.me/918921664272?text=Hello%2C%20I%27d%20like%20more%20info%20about%20your%20travel%20packages."
+class="whatsapp-float" 
+target="_blank">
+ <div class="whatsapp-tooltip">Chat with us on WhatsApp</div>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon">
+</a>
+<!-- Whatsapp End -->
+   <!-- Footer Start -->
+ <div class="container-fluid background-color-nav text-light footer pt-10 mt-4 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Company</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/about-us.html">About Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/contact.html">Contact Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/privacy-policy.html">Privacy Policy</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/terms-and-conditions.html">Terms & Conditions</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/FAQs.html">FAQs & Help</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Careers</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Blog</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <!-- <div class="col-lg-3 col-md-6"> -->
+                    <!-- <h4 class="gradient-text font-face">Follow Us</h4> -->
+
+                    <h4 class=" gradient-text montserrat-uniquifier-light">Quick Links</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Bali Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Dubai Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Kerala Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Malidives Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Thailand Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Armenia Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Turkey Tour Packages</a>
+                    <!-- </div> -->
+
+
+                </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Get in Touch</h4>
+                <p class="mb-2 montserrat-uniquifier-light">
+                        <i class="fa-solid fa-phone" style="color: white;"></i>
+                        <a href="tel:+918075512516">+91 80755 12516</a> 
+                    
+                    </p>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-envelope" style="color: white;"></i><a href="mailto:info@flyoverholidays.com">info@flyoverholidays.com</a>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-house" style="color: white;"></i>Flyover Holidays,
+                        2nd Floor, Naureen Tower,
+                        Kaloor, Kochi,
+                        Kerala</p>
+                    </p>
+                    <div class="d-flex pt-2 ps-4">
+                        <a class="btn-soc  btn-social " href="https://x.com/FlyoverHolidays"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://www.facebook.com/flyoverholidays"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://youtube.com/@flyoverholidays7724"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i class="fa-brands fa-linkedin fa-lg"></i></i></a>
+                    </div>
+            </div>   
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Gallery</h4>
+                <a href="gallery.html">
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                    </div>
+
+                    <!-- <div class="col-4">
+                        <a href="gallery-maldives.html"><img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="Gallery-Maldives"></a>
+                    </div> -->
+
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text font-face mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">FlyOver Holidays</a>, All Right Reserved.
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                            <a href="/flyover-holidays/index.html">Home</a>
+                            <!-- <a href="">Cookies</a> -->
+                            <a href="/flyover-holidays/contact.html">Help</a>
+                            <a href="/flyover-holidays/FAQs.html">FAQ</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  
+</body>
+
+</html>

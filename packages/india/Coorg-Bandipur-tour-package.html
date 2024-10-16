@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FlyOver Holidays</title>
+    <link rel="icon" href="/flyover-holidays/img/logo_icon.png" type="image/icon type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="/flyover-holidays/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="/flyover-holidays/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/flyover-holidays/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/flyover-holidays/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/flyover-holidays/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="/flyover-holidays/css/style.css" rel="stylesheet">
+    <link href="/flyover-holidays/css/enquiry.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+
+
+<!-- Navbar & Hero Start -->
+<div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+            <div class="logo-container">
+                <img id="logo" src="/flyover-holidays/img/logo with text for black bg.jpg" data-white-bg-src="/flyover-holidays/img/logo with text for white bg.jpg" 
+                data-black-bg-src="/flyover-holidays/img/logo with text for black bg.jpg" alt="Company Logo" class="logo">
+                
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 ">
+                <a href="/flyover-holidays/index.html" class=" nav-item nav-link active">HOME</a>
+                <a href="/flyover-holidays/about-us.html" class="nav-item nav-link">ABOUT US</a>
+                <a href="/flyover-holidays/service.html" class="nav-item nav-link">SERVICES</a>
+                <a href="/flyover-holidays/destinations.html" class="nav-item nav-link">DESTINATIONS</a>
+                <a href="/flyover-holidays/packages.html" class="nav-item nav-link">PACKAGES</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/flyover-holidays/blog.html" class="dropdown-item">BLOG</a>
+                        <a href="/flyover-holidays/testimonial.html" class="dropdown-item">TESTIMONIAL</a>
+                        <a href="/flyover-holidays/terms-and-conditions.html" class="dropdown-item">TERMS&CONDITIONS</a>
+                        <a href="/flyover-holidays/privacy-policy.html" class="dropdown-item">PRIVACY POLICY</a>
+                        <a href="/flyover-holidays/FAQs.html" class="dropdown-item">FREQUENTLY ASKED QUESTIONS</a>
+                        <!-- <a href="team.html" class="dropdown-item">Travel Guides</a> -->
+                    </div>
+                </div>
+                <a href="/flyover-holidays/contact.html" class="nav-item nav-link">CONTACT</a>
+                <a href="/flyover-holidays/our-resorts.html" class="nav-item nav-link">OUR RESORTS</a>
+            </div>
+            <!-- <a href="" class="btn btn rounded-pill py-2 px-4">REGISTER</a> -->
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-color py-0 mb-0">
+        <!-- <div class="container py-5"> -->
+            <div class="row justify-content-center">
+                <!-- <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center"> -->
+                    <!-- <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy Your Vacation With Us</h1>
+                    <p class="fs-4 text-white mb-4 animated slideInDown">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
+                    <div class="position-relative w-75 mx-auto animated slideInDown">
+                        <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand">
+                        <button type="button" class="btn btn rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        <!-- </div> -->
+    </div>
+</div>
+<!-- Navbar & Hero End -->
+
+
+
+<!-- ENQUIRY FORM -->
+
+    <!-- Button to open the enquiry form -->
+    <div id="enquiry-button">
+        <button id="open-enquiry-form">Enquire Now</button>
+    </div>
+
+
+    <!-- <div class="container-f"> -->
+    <div id="enquiry-form" class="enquiry-form-popup"  style="display: none;">
+        <button id="close-btn" class="close-btn">x</button>
+
+        <div class="contact-container">
+
+            <div class="left-col">
+                <img class="form-logo" src="/flyover-holidays/img/logo with text for black bg-Photoroom.png" />
+            </div>
+            <div class="right-col">
+                <!-- Close Button -->
+
+                <h1>Contact us</h1>
+                <form id="submit-form" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="Your City" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="State">State</label>
+                            <select id="State" name="State" class="custom-dropdown">
+                                <option value="" disabled selected>Select your option</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                                <option value="Others">Others</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit" name="submit">Send</button>
+
+
+                </form>
+
+                <div id="error"></div>
+                <div id="success-msg"></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Image credit: Oliver Sjöström https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/  -->
+    <div class="travel-container">
+        <!-- Left Column -->
+        <div class="travel-left-column">
+    
+            <!-- Title Section -->
+            <div class="travel-title-section">
+                <h1>Coorg & Bandipur Tour Package</h1>
+                <p><strong>Duration of tour:</strong> 03 Nights & 04 Days</p>
+                <p><strong>Pick up & Drop:</strong> Bangalore</p>
+                <p><strong>Stay Period:</strong> May 2024</p>
+            </div>
+    
+            <!-- Large Image -->
+            <img src="/flyover-holidays/img/gallery/india/coorg.webp" alt="Coorg & Bandipur" class="travel-large-image">
+    
+            <!-- Detailed Itinerary -->
+            <div class="travel-section">
+                <h2>Detailed Itinerary</h2>
+                <table class="travel-itinerary-table" style="border: 1px solid #000; border-collapse: collapse; width: 100%;">
+                    <thead>
+                        <tr>
+                            <th style="border: 1px solid #000; padding: 8px;">Day</th>
+                            <th style="border: 1px solid #000; padding: 8px;">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Day 01</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Bangalore to Coorg. Pick up from Bangalore and visit Golden Temple on the way.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Day 2</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Coorg sightseeing. Visit Abbey Falls, Raj's Seat, Dubare Elephant Camp, and Nasargadhama activity park. Overnight stay at the Hotel/Resort.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Day 3</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Jeep Safari day at Bandipur. (Need to be there by 2 PM)</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Day 4</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Bandipur to Bangalore. After breakfast, check out & drop at Bangalore.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <!-- Package Inclusions and Exclusions -->
+            <div class="travel-section">
+                <h2>Package Inclusions & Exclusions</h2>
+                <table class="travel-inclusions-table" style="border: 1px solid #000; border-collapse: collapse; width: 100%;">
+                    <thead>
+                        <tr>
+                            <th style="border: 1px solid #000; padding: 8px;">Inclusions</th>
+                            <th style="border: 1px solid #000; padding: 8px;">Exclusions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Accommodation as specified above using 01 dbl rooms.</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Any meals other than those mentioned above.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Transfers and sightseeing using AC Sedan.</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Any Airfare / Train fare.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Welcome drink on arrival.</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Entry fees/ any boating charges.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Complimentary breakfast in all hotels.</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Any portage at airports and hotels, tips, insurance, wine, mineral water, telephone charges, and all items of personal nature.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Service of well-experienced English-speaking tour driver.</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Any services not specifically mentioned in the inclusions.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Vehicle at your disposal for arrival and departure transfers & sightseeing as per itinerary.</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Expenses caused by factors beyond our control like rail and flight delays, roadblocks, and vehicle malfunctions.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">Fuel, driver allowance, toll, parking fee, and night halt charges.</td>
+                            <td style="border: 1px solid #000; padding: 8px;">Child above mentioned age limit/max permitted number will be charged extra.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 8px;">All applicable taxes.</td>
+                            <td style="border: 1px solid #000; padding: 8px;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <!-- Special Note -->
+            <div class="travel-section">
+                <h2>Special Note</h2>
+                <ul>
+                    <li>Confirmation of rooms is subject to availability at the time of booking. In case the hotel mentioned cannot confirm standard rooms, alternative accommodation shall be provided and any extra cost will be paid in addition to the charges mentioned above.</li>
+                    <li>Rate is valid for the above-mentioned travel date only.</li>
+                    <li>Mandatory RT-PCR test to be done at the resort.</li>
+                </ul>
+            </div>
+    
+            <!-- Hotel Details -->
+            <div class="travel-section">
+                <h2>Hotel Details</h2>
+                <div class="hotel-container">
+                    <div class="hotel">
+                        <h3>Day 01 - 02: Coorg Gokulam Grand (Standard Honeycomb)</h3>
+                        <div class="travel-hotel-images">
+                            <img src="/flyover-holidays/img/gallery/india/gg1.avif" alt="Gokulam Grand Hotel 1">
+                            <img src="/flyover-holidays/img/gallery/india/gg2.jpg" alt="Gokulam Grand Hotel 2">
+                            <img src="/flyover-holidays/img/gallery/india/gg3.jpg" alt="Gokulam Grand Hotel 2">
+
+                        </div>
+                    </div>
+                    <div class="hotel">
+                        <h3>Day 03: Bandipur MC Resort (Deluxe Room Non A/C)</h3>
+                        <div class="travel-hotel-images">
+                            <img src="/flyover-holidays/img/gallery/india/mc1.jpg" alt="Bandipur MC Resort 1">
+                            <img src="/flyover-holidays/img/gallery/india/mc2.jpg" alt="Bandipur MC Resort 2">
+                            <img src="/flyover-holidays/img/gallery/india/mc3.jpg" alt="Bandipur MC Resort 2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Booking Process -->
+            <div class="travel-section">
+                <h2>Booking Process</h2>
+                <ul>
+                    <li>Our reservations will send you a final confirmation mail with the complete package details.</li>
+                    <li>To confirm the package, please send us your passport copies (of both persons traveling) & PAN card copy (of 01 person) as a reply to the final confirmation mail sent by reservations, also mention your traveling date in the mail.</li>
+                    <li>After receiving the details, our reservations will book the complete package in your name.</li>
+                    <li>After the official confirmation from the hotel, our reservations will share the booking confirmation mail, which includes the complete package details, booking confirmation codes & payment details.</li>
+                    <li>Once confirmation is received, a token advance of 10% of the package cost is required.</li>
+                    <li>100% payment must be cleared before the payment cut-off date provided by reservations. (You can cross-check your bookings directly at the hotels before making payment).</li>
+                </ul>
+            </div>
+    
+            <!-- WhatsApp/Call Button -->
+            <div class="travel-contact-buttons">
+                <a href="https://wa.me/918075512516" class="travel-button travel-whatsapp-button">WhatsApp Us</a>
+                <a href="tel:+918075512516" class="travel-button travel-call-button">Call Us</a>
+            </div>
+    
+        </div>
+    
+        <!-- Right Column -->
+        <div class="travel-right-column">
+            <div class="travel-summary-box">
+                <h3>Package Summary</h3>
+                <p><strong>Rate:</strong> ₹44,000/-</p>
+                <p><strong>Duration:</strong> 03 Nights & 04 Days</p>
+            </div>
+    
+            <div class="travel-query-box">
+                <h3>Got Any Query?</h3>
+                <p>Contact us:</p>
+                <p><strong>Phone:</strong> +91 80755 12516</p>
+                <p><strong>Email:</strong> info@yourtravelcompany.com</p>
+            </div>
+    
+            <div class="travel-sidebar">
+                <h3>Other Packages</h3>
+                <ul>
+                    <li><a href="#">Goa Tour Package</a></li>
+                    <li><a href="#">Kerala Tour Package</a></li>
+                    <li><a href="#">Munnar Tour Package</a></li>
+                    <li><a href="#">Ooty Tour Package</a></li>
+                    <li><a href="#">Hampi Tour Package</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+<!-- 
+    <section class="custom-package-section">
+        <div class="custom-package-header">
+            <h1 class="custom-package-title">Coorg & Bandipur Tour Package</h1>
+            <p class="custom-package-subtitle">Coorg Landscape & Bandipur Forest</p>
+            <p class="custom-package-duration">Duration: 03 Nights & 04 Days</p>
+        </div>
+    
+        <h2 class="custom-package-title"><span class="section-icon">✈️</span>Package Details</h2>
+        <table class="custom-package-table">
+            <tr>
+                <th>Pick up & Drop</th>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <th>Stay Period</th>
+                <td>May 2024</td>
+            </tr>
+            <tr>
+                <th>Travel Month</th>
+                <td>September</td>
+            </tr>
+            <tr>
+                <th>Package Duration</th>
+                <td>4 Nights / 5 Days</td>
+            </tr>
+            <tr>
+                <th>Rooms</th>
+                <td>1 (2 Adults + 1 Kid)</td>
+            </tr>
+            <tr>
+                <th>Vehicle</th>
+                <td>1 - Sedan</td>
+            </tr>
+            <tr>
+                <th>Meal Plan</th>
+                <td>MAPAI (Breakfast & Dinner)</td>
+            </tr>
+            <tr>
+                <th>Accommodation</th>
+                <td>2N Hotel A, 1N Hotel B, 1N Houseboat C</td>
+            </tr>
+            <tr>
+                <th>Package Cost</th>
+                <td>INR 40,800/-</td>
+            </tr>
+        </table>
+    
+        <h2 class="custom-package-title"><span class="section-icon">📅</span>Itinerary</h2>
+        <ul class="custom-package-list">
+            <li><strong>Day 1:</strong> Pick up from Bangalore. Visit Golden Temple on the way to Coorg.</li>
+            <li><strong>Day 2:</strong> Breakfast at the hotel. Coorg sightseeing including Abbey Falls, Raj’s Seat, Dubare Elephant Camp, and Nasargadhama activity park. Overnight stay at Gokulam Grand Hotel.</li>
+            <li><strong>Day 3:</strong> Jeep Safari in Bandipur (2 PM arrival for the 3 PM safari). Overnight stay at MC Resort, Bandipur.</li>
+            <li><strong>Day 4:</strong> Breakfast at the hotel. Check out and drop off at Bangalore.</li>
+        </ul>
+    
+        <h2 class="custom-package-title"><span class="section-icon">📋</span>Inclusions</h2>
+        <ul class="custom-package-list">
+            <li>Accommodation as specified (1 double room).</li>
+            <li>Transfers and sightseeing using AC Sedan.</li>
+            <li>Welcome drink on arrival.</li>
+            <li>Complimentary breakfast at all hotels.</li>
+            <li>Service of an experienced English-speaking driver.</li>
+            <li>Vehicle at your disposal for transfers & sightseeing.</li>
+            <li>All applicable taxes.</li>
+        </ul>
+    
+        <h2 class="custom-package-title"><span class="section-icon">💰</span>Exclusions</h2>
+        <ul class="custom-package-list">
+            <li>Any meals other than those mentioned above.</li>
+            <li>Any Airfare / Train fare.</li>
+            <li>Entry fees / boating charges.</li>
+            <li>Any portage at airports and hotels, tips, insurance, wine, mineral water, and personal expenses.</li>
+            <li>Any services not specifically mentioned in the inclusions.</li>
+            <li>Expenses due to factors beyond control (rail/flight delays, road blocks, etc.).</li>
+        </ul>
+    
+        <div class="custom-package-terms">
+            <h3>📜 Special Note</h3>
+            <ul>
+                <li>Confirmation of rooms is subject to availability. Rates are valid for the specified travel date only.</li>
+            </ul>
+        </div>
+    
+        <h2 class="custom-package-title"><span class="section-icon">📝</span>Booking Process</h2>
+        <ul>
+            <li>Confirmation will be sent via email. To confirm, send passport copies (both travelers) & PAN card copy (one person) via email.</li>
+            <li>After confirmation, a 10% token advance is required, with full payment due before the cutoff date.</li>
+        </ul>
+    
+        <h2 class="custom-package-title"><span class="section-icon">📦</span>Package Cost</h2>
+        <p>Cost for 2 Adults + 1 Child: INR 44,000/-</p>
+    
+        <h2 class="custom-package-title"><span class="section-icon">🖼️</span>Images</h2>
+        <div class="custom-package-images">
+            <img src="images/coorg1.jpg" alt="Coorg Landscape" class="custom-package-image">
+            <img src="images/coorg2.jpg" alt="Dubare Elephant Camp" class="custom-package-image">
+            <img src="images/bandipur1.jpg" alt="Bandipur Forest Jeep Safari" class="custom-package-image">
+            <img src="images/bandipur2.jpg" alt="Bandipur Wildlife" class="custom-package-image">
+        </div>
+    
+        <div class="custom-package-buttons">
+            <a href="https://wa.me/xxxxxxxxxx" class="custom-package-button">WhatsApp Us</a>
+            <a href="tel:xxxxxxxxxx" class="custom-package-button">Call Us</a>
+        </div>
+    </section> -->
+    
+    
+    
+<!-- WhatsApp Floating Icon NEW -->
+<a href="https://wa.me/918921664272?text=Hello%2C%20I%27d%20like%20more%20info%20about%20your%20travel%20packages."
+   class="whatsapp-float" 
+   target="_blank">
+    <div class="whatsapp-tooltip">Chat with us on WhatsApp</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon">
+</a>
+<!-- Whatsapp End -->
+
+ <!-- Footer Start -->
+ <div class="container-fluid background-color-nav text-light footer pt-10 mt-4 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                    <h4 class="gradient-text montserrat-uniquifier-light">Company</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/about-us.html">About Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/contact.html">Contact Us</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/privacy-policy.html">Privacy Policy</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/terms-and-conditions.html">Terms & Conditions</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/FAQs.html">FAQs & Help</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Careers</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="#">Blog</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <!-- <div class="col-lg-3 col-md-6"> -->
+                    <!-- <h4 class="gradient-text font-face">Follow Us</h4> -->
+
+                    <h4 class=" gradient-text montserrat-uniquifier-light">Quick Links</h4>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Bali Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Dubai Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Kerala Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Malidives Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Thailand Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Armenia Tour Packages</a>
+                    <a class="btn--btn-newlink montserrat-uniquifier-light" href="/flyover-holidays/packages.html">Turkey Tour Packages</a>
+                    <!-- </div> -->
+
+
+                </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Get in Touch</h4>
+                <p class="mb-2 montserrat-uniquifier-light">
+                        <i class="fa-solid fa-phone" style="color: white;"></i>
+                        <a href="tel:+918075512516">+91 80755 12516</a> 
+                    
+                    </p>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-envelope" style="color: white;"></i><a href="mailto:info@flyoverholidays.com">info@flyoverholidays.com</a>
+                    <p class="mb-2 montserrat-uniquifier-light"><i class="fa-solid fa-house" style="color: white;"></i>Flyover Holidays,
+                        2nd Floor, Naureen Tower,
+                        Kaloor, Kochi,
+                        Kerala</p>
+                    </p>
+                    <div class="d-flex pt-2 ps-4">
+                        <a class="btn-soc  btn-social " href="https://x.com/FlyoverHolidays"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://www.facebook.com/flyoverholidays"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://youtube.com/@flyoverholidays7724"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                        <a class="btn-soc  btn-social " href="https://www.linkedin.com/in/fly-over-holidays-a70b2320a"><i class="fa-brands fa-linkedin fa-lg"></i></i></a>
+                    </div>
+            </div>   
+            <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text montserrat-uniquifier-light">Gallery</h4>
+               
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="/flyover-holidays/img/package-1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="/flyover-holidays/img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="/flyover-holidays/img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="/flyover-holidays/img/package-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="/flyover-holidays/img/package-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="/flyover-holidays/img/package-1.jpg" alt="">
+                    </div>
+                </div>
+           
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="gradient-text font-face mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">FlyOver Holidays</a>, All Right Reserved.
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                            <a href="/flyover-holidays/index.html">Home</a>
+                            <!-- <a href="">Cookies</a> -->
+                            <a href="/flyover-holidays/contact.html">Help</a>
+                            <a href="/flyover-holidays/FAQs.html">FAQ</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/flyover-holidays/lib/wow/wow.min.js"></script>
+    <script src="/flyover-holidays/lib/easing/easing.min.js"></script>
+    <script src="/flyover-holidays/lib/waypoints/waypoints.min.js"></script>
+    <script src="/flyover-holidays/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/flyover-holidays/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="/flyover-holidays/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="/flyover-holidays/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="/flyover-holidays/js/main.js"></script>
+    <script src="/flyover-holidays/js/script.js"></script>
+    
+
+</body>
+
+</html>
