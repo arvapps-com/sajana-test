@@ -102,10 +102,10 @@
     
     if (window.scrollY > 50) { // Adjust scroll value as needed
         navbar.classList.add('scrolled');
-        logo.src = 'img/logo_with_text_for_white_bg.jpg'; // Black logo for white background
+        logo.src = './img/logo_with_text_for_white_bg.jpg'; // Black logo for white background
     } else {
         navbar.classList.remove('scrolled');
-        logo.src = 'img/logo_with_text_for_black_bg.jpg'; // White logo for black background
+        logo.src = './img/logo_with_text_for_black_bg.jpg'; // White logo for black background
     }
 });
 
@@ -118,8 +118,8 @@ let slideIndex = 1;
     
 const destinationImages = {
     destination1: [
-        'img/gallery/mauritius/beach-666122_1920.jpg',
-        'img/gallery/mauritius/beach-1955371 (1).jpg',
+        './img/gallery/mauritius/beach-666122_1920.jpg',
+        './img/gallery/mauritius/beach-1955371 (1).jpg',
         'destination1_image3.jpg',
     ],
     destination2: [
