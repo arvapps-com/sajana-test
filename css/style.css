@@ -290,7 +290,7 @@
 /* Hero Header  */
  .hero-header { 
     background: linear-gradient(rgba(20, 20, 31, .6), rgba(20, 20, 31, .6)), url(../img/gallery/boat-4899802.jpg);
-    /* background:  linear-gradient(rgba(19, 19, 24, 0.7), rgba(68, 68, 77, 0.5)),url(/flyover-holidays/img/images/cocoon1.jpg); */
+    /* background:  linear-gradient(rgba(19, 19, 24, 0.7), rgba(68, 68, 77, 0.5)),url(../img/images/cocoon1.jpg); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4543,7 +4543,7 @@ section h3 {
 
 .about-hero-section {
     /* background-color: #ffd700; */
-    background-image: url('/flyover-holidays/img/anantara_dhigu_dining_by_design_1920x1037.jpg');
+    background-image: url('../img/anantara_dhigu_dining_by_design_1920x1037.jpg');
     color: #ffffff;
     padding: 80px 20px;
     text-align: center;
@@ -6429,7 +6429,7 @@ textarea.custom-form-input {
 /* Enquiry Form Section with World Map Background */
 .enquiry-section-worldmap {
     padding: 80px 20px;
-    /* background: url('/flyover-holidays/img/img-bg-map.jpg') no-repeat center center; */
+    /* background: url('../img/img-bg-map.jpg') no-repeat center center; */
     background: white;
     background-size: cover;
     position: relative;
@@ -6454,7 +6454,7 @@ textarea.custom-form-input {
 .enquiry-wrapper {
     max-width: 800px;
     background-color: rgba(255, 255, 255, 0.9); 
-    /* background: url('/flyover-holidays/img/img-bg-map.jpg'); */
+    /* background: url('../img/img-bg-map.jpg'); */
     background: white;
     padding: 40px;
     border-radius: 10px;

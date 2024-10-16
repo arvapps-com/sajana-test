@@ -12,10 +12,10 @@ $(document).ready(function() {
     
     if (window.scrollY > 50) { // Adjust scroll value as needed
         navbar.classList.add('scrolled');
-        logo.src = '/flyover-holidays/img/logo with text for white bg.jpg'; // Black logo for white background
+        logo.src = '../img/logo with text for white bg.jpg'; // Black logo for white background
     } else {
         navbar.classList.remove('scrolled');
-        logo.src = '/flyover-holidays/img/logo with text for black bg.jpg'; // White logo for black background
+        logo.src = '../img/logo with text for black bg.jpg'; // White logo for black background
     }
 });
 
