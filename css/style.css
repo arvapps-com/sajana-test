@@ -12,9 +12,25 @@
     /* --gradient: linear-gradient(45deg, #F7EF8A,#AE8625, #EDC967, #D2AC47); */
 }
 
-/*#313041
+/* p {
+    text-align: justify;
+} */
 
 
+
+        /* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fafaf8; 
+    color: #333; 
+    font-size: 16px;
+}
+ */
 
 
 /* solid 1px #b09e6e */
@@ -4461,6 +4477,7 @@ section h3 {
     font-size: 36px;
     color: #f1c40f; /* Golden color for the title */
     margin-bottom: 40px;
+    /* margin-left: 300px; */
     
 }
 
@@ -4590,7 +4607,7 @@ section h3 {
 
 /* Introduction Section */
 .about-intro {
-    padding: 40px;
+    padding: 20px;
     background-color: #fff3d0;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -5402,7 +5419,7 @@ section h3 {
 
 .new-contact-btn {
     width: 100%;
-    padding: 12px;
+    /* padding: 12px; */
     background-color: #ffd700;
     color: #fff;
     border: none;
