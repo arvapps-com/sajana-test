@@ -4664,6 +4664,11 @@ section h3 {
     }
 }
 
+@media (max-width: 767px) {                  
+    .content-to-hide {
+       display: none;
+    }
+ }
 
 
 /* new-temp *//* CSS for About Us Section */
