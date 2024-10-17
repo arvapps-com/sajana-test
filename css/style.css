@@ -6152,6 +6152,64 @@ body {
     color: #241d05;
 }
 
+
+/* Responsive Design */
+/* Medium Devices (Tablets) */
+@media (max-width: 992px) {
+    .travel-destination-container {
+        flex-direction: column; /* Stack the content vertically */
+        margin: 10px;
+    }
+
+    .travel-destination-sidebar {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px; /* Add some space between sidebar and main content */
+    }
+
+    .destination-tab-list li a {
+        padding: 15px;
+        font-size: 18px; /* Slightly larger text for better readability */
+    }
+
+    .got-question-box h3 {
+        font-size: 18px;
+    }
+
+    .got-question-box p, 
+    .got-question-box .contact-details {
+        font-size: 14px;
+    }
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 600px) {
+    .travel-destination-container {
+        margin: 5px;
+    }
+
+    .travel-destination-sidebar {
+        padding: 10px;
+    }
+
+    .destination-tab-list li a {
+        padding: 10px;
+        font-size: 16px; /* Adjust text size for smaller screens */
+    }
+
+    .got-question-box {
+        padding: 15px;
+    }
+
+    .got-question-box h3 {
+        font-size: 16px;
+    }
+
+    .got-question-box p, 
+    .got-question-box .contact-details {
+        font-size: 12px;
+    }
+}
 /* Destination Content */
 .travel-content-box {
     flex: 2;
