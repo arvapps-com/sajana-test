@@ -1664,6 +1664,8 @@ p.mb-2 span {
     width: 90%; /* Responsive width */
 }
 
+
+
 /* SETS OVERLAY */
 
 
@@ -4424,11 +4426,17 @@ section h3 {
 } */
 
 
+.welcome-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 features per row on large screens */
+    gap: 40px;
+}
+
 /* For medium screens */
 @media (max-width: 992px) {
     .welcome-features {
         grid-template-columns: repeat(2, 1fr); /* 2 features per row on medium screens */
-        gap: 18px;
+        gap: 20px;
     }
 }
 
@@ -4436,22 +4444,22 @@ section h3 {
 @media (max-width: 600px) {
     .welcome-features {
         grid-template-columns: repeat(2, 1fr); /* 2 features per row on small screens */
-        gap: 8px; /* Reduce gap for small screens */
+        gap: 10px; /* Reduce gap for small screens */
     }
 
     .feature {
-        padding: 10px; /* Adjust padding for smaller screens */
-        max-width: 100%;
+        padding: 15px; /* Adjust padding for smaller screens */
     }
 
     .feature-title {
-        font-size: 14px; /* Adjust font size */
+        font-size: 18px; /* Adjust font size */
     }
 
     .feature-description {
-        font-size: 12px; /* Adjust description font size */
+        font-size: 14px; /* Adjust description font size */
     }
 }
+
 
 
 /* services index */
@@ -6075,7 +6083,14 @@ body {
     color: #555; /* Dark grey for subheadings */
     font-size: 24px;
     margin: 15px 0 10px; /* Space above and below the subheading */
+    
 }
+
+
+.resort-content-box p{
+    text-align: justify;
+}
+
 
 /* Resort Travel Guide Styles */
 .resort-travel-guide {
@@ -6262,6 +6277,12 @@ body {
     background-color: #fff; /* White background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.travel-content-box p {
+    text-align: justify;
+}
+
+
 
 .travel-image-box {
     margin-bottom: 20px;
@@ -6819,11 +6840,15 @@ textarea.form-input-custom {
     font-size: 16px;
     color: #555; /* Medium gray for descriptions */
     margin-bottom: 30px;
+    text-align: justify;
   }
   
+ 
+
   .amsterdam-travel-tips {
     font-size: 16px;
     color: #333; /* Dark gray for tips */
+    text-align: justify;
   }
   
   .amsterdam-cta-section {
@@ -8266,6 +8291,7 @@ th {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 /* Heading Styles */
