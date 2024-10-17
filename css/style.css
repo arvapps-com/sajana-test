@@ -8220,7 +8220,7 @@ th {
 
 .got-question-box .contact-details a:hover {
     text-decoration: underline; /* Underline on hover */
-    color: #007bff;            /* Change color on hover */
+    color: #333333;      
 }
 
 /* Summary Box Styles */
