@@ -19,6 +19,10 @@ $(document).ready(function() {
     }
 });
 
+
+
+
+
     // Handle form submission
     $("#fixed-form form").submit(function(e) {
         e.preventDefault(); // Prevent the default form submission
