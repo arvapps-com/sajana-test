@@ -2827,6 +2827,17 @@ h1 {
     }
 }
 
+/* Hide the slider on desktop and tablet view */
+.mobile-slider {
+    display: none;
+}
+
+/* Show the slider on mobile view */
+@media (max-width: 768px) {
+    .mobile-slider {
+        display: block;
+    }
+}
 
         /* new package*/
 
@@ -4334,11 +4345,17 @@ section h3 {
     margin: 0 auto;
 }
 
-.welcome-features {
+/* .welcome-features {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     text-align: center;
+} */
+
+.welcome-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Always 4 features per row */
+    gap: 20px;
 }
 
 .feature {
@@ -4364,7 +4381,7 @@ section h3 {
     font-size: 22px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .feature-description {
@@ -4374,9 +4391,9 @@ section h3 {
 }
 
 /* Responsive Design */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     .welcome-features {
-        grid-template-columns: repeat(2, 3fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .welcome-title {
@@ -4404,9 +4421,37 @@ section h3 {
     .feature-description {
         font-size: 14px;
     }
+} */
+
+
+/* For medium screens */
+@media (max-width: 992px) {
+    .welcome-features {
+        grid-template-columns: repeat(2, 1fr); /* 2 features per row on medium screens */
+        gap: 18px;
+    }
 }
 
+/* For small screens */
+@media (max-width: 600px) {
+    .welcome-features {
+        grid-template-columns: repeat(2, 1fr); /* 2 features per row on small screens */
+        gap: 8px; /* Reduce gap for small screens */
+    }
 
+    .feature {
+        padding: 10px; /* Adjust padding for smaller screens */
+        max-width: 100%;
+    }
+
+    .feature-title {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .feature-description {
+        font-size: 12px; /* Adjust description font size */
+    }
+}
 
 
 /* services index */
@@ -7478,11 +7523,13 @@ body {
     overflow: hidden;
     width: 100%;
     position: relative;
+
 }
 
 .slider-content {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    gap: 30px;
 }
 
 .slider-item {
@@ -7550,31 +7597,7 @@ body {
 .slider-info .enquire-btn:hover {
     background-color: #e5c078;
 }
-/* 
-.slider-controls {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
 
-.slider-controls button {
-    background-color: #f1c40f;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
-}
-
-.slider-controls button:hover {
-    background-color: #e5c078;
-} */
 
 /* View More Button */
 .view-more-container {
@@ -7597,12 +7620,65 @@ body {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .slider-item {
         min-width: 90%;
         margin-right: 10px;
     }
+} */
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .slider-item {
+        min-width: 40%; /* Increase the width for medium screens */
+    }
 }
+
+@media (max-width: 992px) {
+    .slider-item {
+        min-width: 50%; /* Half the screen width on smaller laptops/tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-item {
+        min-width: 100%; /* Full width for tablets and below */
+        margin-right: 10px; /* Adjust margin */
+    }
+
+    .slider-info h3 {
+        font-size: 18px; /* Reduce heading size */
+    }
+
+    .slider-info p {
+        font-size: 12px; /* Reduce paragraph font size */
+    }
+
+    .slider-info .enquire-btn {
+        padding: 8px 15px; /* Reduce button padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-item {
+        margin-right: 0; /* Remove margin on very small screens */
+        border-radius: 4px; /* Reduce border radius */
+    }
+
+    .slider-info h3 {
+        font-size: 16px; /* Further reduce heading size */
+    }
+
+    .slider-info p {
+        font-size: 11px; /* Further reduce paragraph font size */
+    }
+
+    .slider-info .enquire-btn {
+        padding: 7px 12px; /* Further reduce button padding */
+        font-size: 13px; /* Reduce font size of the button */
+    }
+}
+
 
 /* ----------------------------------------------------------- */
 
