@@ -2785,6 +2785,48 @@ h1 {
 
 
 
+/* For larger screens (desktops and laptops) */
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 50%; /* 50% width for large screens */
+    }
+
+    .col-lg-3 {
+        flex: 0 0 25%; /* 25% width for large screens */
+    }
+
+    .box {
+        height: 250px; /* Maintain height on large screens */
+    }
+}
+
+/* For medium screens (tablets) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-lg-6, .col-lg-3 {
+        flex: 0 0 50%; /* Each box takes 50% width on medium screens */
+    }
+
+    .box {
+        height: 200px; /* Adjust height for medium screens */
+    }
+}
+
+/* For small screens (phones) */
+@media (max-width: 767px) {
+    .col-lg-6, .col-lg-3 {
+        flex: 0 0 100%; /* Full width for each box on small screens */
+    }
+
+    .box {
+        height: 180px; /* Smaller height for small screens */
+    }
+
+    .custom-destination-name {
+        font-size: 1.2rem; /* Adjust font size for better readability */
+        padding: 0.4rem 0.8rem; /* Reduce padding */
+    }
+}
+
 
         /* new package*/
 
@@ -4886,7 +4928,7 @@ section h3 {
     }
 
     .destination-image {
-        height: 200px; /* Fixed image height for smaller screens */
+        height: 165px; /* Fixed image height for smaller screens */
     }
 
     .destination-details {
@@ -4906,15 +4948,15 @@ section h3 {
         padding: 8px 15px;
     }
 }
-
+/* 
 @media (max-width: 576px) {
     .destination-box {
-        max-width: 230px; /* Smaller width on mobile */
-        height: 320px; /* Adjust height for mobile */
+        max-width: 230px; 
+        height: 320px; 
     }
 
     .destination-image {
-        height: 180px; /* Fixed image height for mobile */
+        height: 180px; 
     }
 
     .destination-name {
@@ -4929,7 +4971,7 @@ section h3 {
         font-size: 0.8rem;
         padding: 6px 12px;
     }
-}
+} */
 
 
 /* --------------------------------------------------------------- */
