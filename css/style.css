@@ -6227,6 +6227,134 @@ body {
 
 /* General Styles */
 /* General Styles */
+/* General Styles
+.travel-destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #fff; 
+}
+
+.travel-destination-sidebar {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 20px;
+    background-color: #fff; 
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.destination-tab-list {
+    list-style: none;
+    padding: 0;
+}
+
+.destination-tab-list li {
+    margin-bottom: 10px;
+}
+
+.destination-tab-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease;
+}
+
+.destination-tab-list li a:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+
+.got-question-box {
+    background-color: #FFD700;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.got-question-box h3 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.got-question-box p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.got-question-box .contact-details {
+    font-size: 14px;
+    font-weight: 500;
+    color: #241d05;
+}
+
+
+
+@media (max-width: 992px) {
+    .travel-destination-container {
+        flex-direction: column; 
+        margin: 10px;
+    }
+
+    .travel-destination-sidebar {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
+
+    .destination-tab-list li a {
+        padding: 15px;
+        font-size: 18px; 
+    }
+
+    .got-question-box h3 {
+        font-size: 18px;
+    }
+
+    .got-question-box p, 
+    .got-question-box .contact-details {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .travel-destination-container {
+        margin: 5px;
+    }
+
+    .travel-destination-sidebar {
+        padding: 10px;
+    }
+
+    .destination-tab-list li a {
+        padding: 10px;
+        font-size: 16px; 
+    }
+
+    .got-question-box {
+        padding: 15px;
+    }
+
+    .got-question-box h3 {
+        font-size: 16px;
+    }
+
+    .got-question-box p, 
+    .got-question-box .contact-details {
+        font-size: 12px;
+    }
+} */
+
 /* General Styles */
 .travel-destination-container {
     display: flex;
@@ -6239,10 +6367,16 @@ body {
 .travel-destination-sidebar {
     flex: 1;
     max-width: 250px;
-    margin-right: 20px;
+    margin-left: 20px; /* Changed from margin-right */
     background-color: #fff; /* White background */
     padding: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    order: 2; /* Move the sidebar after the main content */
+}
+
+.main-content {
+    flex: 3; /* Main content takes more space */
+    order: 1; /* Make sure the main content comes before the sidebar */
 }
 
 .destination-tab-list {
@@ -6308,7 +6442,7 @@ body {
 
     .travel-destination-sidebar {
         max-width: 100%;
-        margin-right: 0;
+        margin-left: 0;
         margin-bottom: 20px; /* Add some space between sidebar and main content */
     }
 
@@ -6355,10 +6489,11 @@ body {
         font-size: 12px;
     }
 }
+
 /* Destination Content */
 .travel-content-box {
     flex: 2;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff; /* White background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -6957,7 +7092,55 @@ textarea.form-input-custom {
     background-color: #FFC400; /* Lighter gold on hover */
   }
 
-  
+  /* Responsive Styles */
+
+/* Medium Devices (Tablets) */
+@media (max-width: 992px) {
+    .amsterdam-destination-content {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+    }
+
+    .amsterdam-destination-image {
+        width: 100%; /* Make image take full width on tablets */
+        margin-left: 0;
+        margin-bottom: 20px; /* Space between image and text */
+    }
+
+    .amsterdam-guide-title {
+        font-size: 30px; /* Adjust heading size */
+    }
+
+    .amsterdam-guide-description {
+        font-size: 16px; /* Adjust description size */
+    }
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 600px) {
+    .amsterdam-destination-content {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center align content */
+    }
+
+    .amsterdam-destination-image {
+        width: 100%; /* Full width for small screens */
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .amsterdam-guide-container {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .amsterdam-guide-title {
+        font-size: 24px; /* Smaller heading size */
+    }
+
+    .amsterdam-guide-description {
+        font-size: 14px; /* Smaller description size */
+    }
+}
   
   /* Responsive Design */
   @media (max-width: 768px) {
