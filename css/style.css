@@ -1393,6 +1393,19 @@ Third Gradient: #F9F295, #E0AA3E, #FAF398, #B88A44
         padding-top: 5px; /* Adjust padding for smaller screens */
     }
 }
+@media (max-width: 768px) {
+    .form-logo {
+    height: 60px; /* Adjust height for smaller screens */
+    }
+
+    .company-name {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        padding-top: 5px; /* Adjust padding for smaller screens */
+    }
+}
+
+
+
 
 
 body{
@@ -4215,6 +4228,7 @@ section h3 {
 .testimonials-items-container {
     display: flex;
     transition: transform 0.3s ease; /* Smooth sliding effect */
+    
 }
 
 .testimonial-item {
@@ -6787,9 +6801,9 @@ h3, h4 {
     margin-top: 30px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .custom-package-box {
-        flex-direction: column; /* Stack items on small screens */
+        flex-direction: column; 
     }
 
     .custom-package-image {
@@ -6797,8 +6811,31 @@ h3, h4 {
         margin-bottom: 20px;
     }
 }
+ */
 
+ @media (max-width: 768px) {
+    .custom-package-box {
+        flex-direction: column; /* Stack items on small screens */
+        align-items: center; /* Center align the content */
+        text-align: center; /* Ensure text is also centered */
+    }
 
+    .custom-package-details {
+        text-align: center; /* Center the package details text */
+    }
+
+    .custom-package-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; /* Center the image */
+    }
+
+    .custom-package-button, .custom-more-packages-button {
+        margin: 10px auto; /* Center the buttons */
+    }
+}
 
 
 /* Enquiry Form Section */
