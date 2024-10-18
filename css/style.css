@@ -278,8 +278,9 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: #FFFFFF; /* White background on scroll */
+    background-color: #FFFFFF; 
 }
+
 
 .navbar.scrolled .navbar-brand img {
     max-height: 120px !important; /* Larger size when scrolled */
@@ -319,7 +320,7 @@ body {
 
 
 /*** Section Title ***/
-.section-title {
+/* .section-title {
     position: relative;
     display: inline-block;
     text-transform: uppercase;
@@ -355,7 +356,7 @@ body {
 .section-title.text-start::after {
     width: calc(100% + 60px);
     left: 0;
-}
+} */
 
 /*** Destination ***/
 .destination img {
@@ -1325,15 +1326,39 @@ Third Gradient: #F9F295, #E0AA3E, #FAF398, #B88A44
     background-color: #f8f9fa;
 }
 
+/* .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 87px; 
+    width: auto;
+    margin-right: 4px;
+} */
 .logo-container {
     display: flex;
     align-items: center;
 }
 
 .logo {
-    height: 87px; /* Adjust the height to match your design */
+    height: 87px; /* Default height */
     width: auto;
     margin-right: 4px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 60px; /* Adjust height for mobile */
+    }
+}
+
+
+/* Default logo for mobile screens */
+@media (max-width: 768px) {
+    #logo-home {
+        content: url('./img/logo_with_text_for_white_bg.jpg'); /* Mobile view logo */
+    }
 }
 
 
@@ -4484,7 +4509,7 @@ section h3 {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    width: 60%; 
+    width: 90%; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
@@ -4746,11 +4771,11 @@ section h3 {
     }
 }
 
-@media (max-width: 767px) {                  
+/* @media (max-width: 767px) {                  
     .content-to-hide {
        display: none;
     }
- }
+ } */
 
 
 /* new-temp *//* CSS for About Us Section */
@@ -8126,6 +8151,8 @@ body {
 .view-more-container {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 20px;
+
 }
 
 .view-more-btn {
