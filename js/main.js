@@ -226,7 +226,9 @@ document.addEventListener('DOMContentLoaded', () => {
         $("#submit-form").submit(function(e) {
             e.preventDefault(); // Prevent default form submission
             $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbzqkWedGj05DP6rw4jyyvf16sLK8JY75iT5oWJ9QcQ_YTW2Hqss_jBW3plIOYCkDVJQ9Q/exec",
+                // url: "https://script.google.com/macros/s/AKfycbzqkWedGj05DP6rw4jyyvf16sLK8JY75iT5oWJ9QcQ_YTW2Hqss_jBW3plIOYCkDVJQ9Q/exec",
+                url: "https://script.google.com/macros/s/AKfycbxazsziwZn3yhSeVs7T7kVJzLJXwIkAV7GlIxTEOElpCTw7Zt7vNjwLRD767ME-UhVHXQ/exec",
+
                 data: $("#submit-form").serialize(),
                 method: "post",
                 success: function(response) {

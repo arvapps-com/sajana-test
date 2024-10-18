@@ -4313,7 +4313,7 @@ section h3 {
 
 
 /* Welcome Section Styling */
-.welcome-section {
+/* .welcome-section {
     padding: 80px 20px;
     background-color: #f9f9f9;
 }
@@ -4335,7 +4335,7 @@ section h3 {
 }
 
 .welcome-title span {
-    color: #ffd700; /* Bright golden accent */
+    color: #ffd700; 
 }
 
 .welcome-subtitle {
@@ -4347,16 +4347,10 @@ section h3 {
     margin: 0 auto;
 }
 
-/* .welcome-features {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    text-align: center;
-} */
 
 .welcome-features {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Always 4 features per row */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
 }
 
@@ -4375,7 +4369,7 @@ section h3 {
 
 .icon-wrapper {
     font-size: 40px;
-    color: #ffd700; /* Bright golden accent */
+    color: #ffd700; 
     margin-bottom: 20px;
 }
 
@@ -4392,45 +4386,132 @@ section h3 {
     line-height: 1.6;
 }
 
-/* Responsive Design */
-/* @media (max-width: 992px) {
-    .welcome-features {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.welcome-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px;
+}
 
-    .welcome-title {
-        font-size: 32px;
+@media (max-width: 992px) {
+    .welcome-features {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
     }
 }
 
 @media (max-width: 600px) {
     .welcome-features {
-        grid-template-columns: 2fr;
-    }
-
-    .welcome-title {
-        font-size: 28px;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
     }
 
     .feature {
-        padding: 20px;
+        padding: 15px; 
     }
 
     .feature-title {
-        font-size: 20px;
+        font-size: 18px; 
     }
 
     .feature-description {
-        font-size: 14px;
+        font-size: 14px; 
     }
 } */
 
+
+/* Welcome Section Styling */
+.welcome-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    overflow: hidden; /* Prevents any content from overflowing */
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Adds padding for smaller screens to prevent overflow */
+    box-sizing: border-box; /* Makes sure padding doesn't contribute to width overflow */
+    
+}
+
+.welcome-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.welcome-title {
+    font-size: 36px; /* Adjusted font size to prevent overflow */
+    font-weight: bold;
+    color: #333;
+}
+
+.welcome-title span {
+    color: #ffd700; /* Bright golden accent */
+}
+
+.welcome-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.8;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .welcome-features {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 features per row on large screens */
     gap: 40px;
 }
+
+/* Feature box */
+/* .feature {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+} */
+
+/* Feature box */
+.feature {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px; /* Reduced padding */
+    width: 90%; /* Adjust width for more control over size */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center align all feature content, including the icon */
+    text-align: center;
+}
+
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon wrapper */
+.icon-wrapper {
+    font-size: 40px;
+    color: #ffd700; /* Bright golden accent */
+    margin-bottom: 20px;
+    text-align: center; /* Center the icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Design */
 
 /* For medium screens */
 @media (max-width: 992px) {
@@ -4441,9 +4522,10 @@ section h3 {
 }
 
 /* For small screens */
+/* For small screens */
 @media (max-width: 600px) {
     .welcome-features {
-        grid-template-columns: repeat(2, 1fr); /* 2 features per row on small screens */
+        grid-template-columns: repeat(2, 1fr); /* Only 2 features per row */
         gap: 10px; /* Reduce gap for small screens */
     }
 
@@ -4459,8 +4541,6 @@ section h3 {
         font-size: 14px; /* Adjust description font size */
     }
 }
-
-
 
 /* services index */
 
@@ -4564,7 +4644,7 @@ section h3 {
 }
 
 .destinations-section .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
