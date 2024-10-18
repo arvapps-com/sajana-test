@@ -6434,21 +6434,21 @@ body {
 
 /* Responsive Design */
 /* Medium Devices (Tablets) */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     .travel-destination-container {
-        flex-direction: column; /* Stack the content vertically */
+        flex-direction: column; 
         margin: 10px;
     }
 
     .travel-destination-sidebar {
         max-width: 100%;
         margin-left: 0;
-        margin-bottom: 20px; /* Add some space between sidebar and main content */
+        margin-bottom: 20px; 
     }
 
     .destination-tab-list li a {
         padding: 15px;
-        font-size: 18px; /* Slightly larger text for better readability */
+        font-size: 18px; 
     }
 
     .got-question-box h3 {
@@ -6458,6 +6458,18 @@ body {
     .got-question-box p, 
     .got-question-box .contact-details {
         font-size: 14px;
+    }
+} */
+
+
+/* Hide sidebar on small screens */
+@media (max-width: 992px) {
+    .travel-destination-sidebar {
+        display: none; /* Hide the sidebar on medium and smaller screens */
+    }
+
+    .main-content {
+        order: 1; /* Ensure main content takes full width on smaller screens */
     }
 }
 
