@@ -1357,9 +1357,16 @@ Third Gradient: #F9F295, #E0AA3E, #FAF398, #B88A44
 /* Default logo for mobile screens */
 @media (max-width: 768px) {
     #logo-home {
-        content: url('./img/logo_with_text_for_white_bg.jpg'); /* Mobile view logo */
+        content: url('/img/logo_with_text_for_white_bg.jpg'); /* Mobile view logo */
     }
 }
+
+@media (max-width: 768px) {
+    #logo {
+        content: url('/img/logo_with_text_for_white_bg.jpg'); /* Mobile view logo */
+    }
+}
+
 
 
 .company-name {
@@ -2799,6 +2806,22 @@ h1 {
     font-weight: bold;
     border-radius: 12px;
     z-index: 2; /* Ensure it stays on top */
+}
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .custom-destination-name {
+        font-size: 1.2rem; /* Decrease font size for tablets */
+        padding: 0.4rem 0.8rem; /* Adjust padding for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-destination-name {
+        font-size: 1rem; /* Further decrease font size for mobile devices */
+        padding: 0.3rem 0.6rem; /* Adjust padding for mobile devices */
+    }
 }
 
 /* On hover, show the custom overlay and destination name */
@@ -4509,7 +4532,7 @@ section h3 {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    width: 90%; 
+    width: 100%; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
@@ -4665,7 +4688,7 @@ section h3 {
 /* Destinations Section */
 .destinations-section {
     background-color: #f9f9f9;
-    padding: 40px 20px;
+    padding: 0px 20px;
     color: #333; 
     text-align: center;
 }
