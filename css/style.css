@@ -4421,17 +4421,17 @@ section h3 {
 
 /* Welcome Section Styling */
 .welcome-section {
-    padding: 80px 20px;
+    padding: 40px 20px;
     background-color: #f9f9f9;
-    overflow: hidden; /* Prevents any content from overflowing */
+    overflow: hidden; 
 }
 
 .container {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px; /* Adds padding for smaller screens to prevent overflow */
-    box-sizing: border-box; /* Makes sure padding doesn't contribute to width overflow */
-    
+    padding: 0 20px; 
+    box-sizing: border-box; 
+    overflow: hidden; 
 }
 
 .welcome-header {
@@ -4440,13 +4440,13 @@ section h3 {
 }
 
 .welcome-title {
-    font-size: 36px; /* Adjusted font size to prevent overflow */
+    font-size: 36px; 
     font-weight: bold;
     color: #333;
 }
 
 .welcome-title span {
-    color: #ffd700; /* Bright golden accent */
+    color: #ffd700; 
 }
 
 .welcome-subtitle {
@@ -4483,14 +4483,14 @@ section h3 {
 .feature {
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px; /* Reduced padding */
-    width: 90%; /* Adjust width for more control over size */
+    padding: 20px;
+    width: 60%; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Center align all feature content, including the icon */
+    align-items: center; 
     text-align: center;
 }
 
@@ -4531,14 +4531,16 @@ section h3 {
 
     .feature {
         padding: 15px; /* Adjust padding for smaller screens */
+        width: 143px;
+
     }
 
     .feature-title {
-        font-size: 18px; /* Adjust font size */
+        font-size: 12px; /* Adjust font size */
     }
 
     .feature-description {
-        font-size: 14px; /* Adjust description font size */
+        font-size: 10px; /* Adjust description font size */
     }
 }
 
@@ -4638,7 +4640,7 @@ section h3 {
 /* Destinations Section */
 .destinations-section {
     background-color: #f9f9f9;
-    padding: 60px 20px;
+    padding: 40px 20px;
     color: #333; 
     text-align: center;
 }
